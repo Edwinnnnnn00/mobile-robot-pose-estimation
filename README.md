@@ -4,7 +4,9 @@ An algorithm that detects Aruco markers in the video and calculates its poses in
 Subscriptions:
 
    /camera/color/image_raw (sensor_msgs.msg.Image)
+      Video topic from camera
    /camera/color/camera_info (sensor_msgs.msg.CameraInfo)
+      Camera info topic of camera
 
 Published Topics:
 
