@@ -2,6 +2,7 @@
 An algorithm that detects Aruco markers in the video and calculates its poses in global frame.
 
 Subscriptions:
+
    /camera/color/image_raw (sensor_msgs.msg.Image)
    /camera/color/camera_info (sensor_msgs.msg.CameraInfo)
 
@@ -22,6 +23,7 @@ Published Topics:
         Encoded string URL of marked video to be shown in web used together with ROSLIB library
 
 Parameters:
+
     marker_size - size of the markers in meters (default .0625)
     aruco_dictionary_id - dictionary that was used to generate markers
                           (default DICT_5X5_250)
