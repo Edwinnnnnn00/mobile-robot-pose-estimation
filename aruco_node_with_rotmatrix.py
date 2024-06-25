@@ -28,6 +28,8 @@ Parameters:
     image_topic - image topic to subscribe to (default /camera/image_raw)
     camera_info_topic - camera info topic to subscribe to
                          (default /camera/camera_info)
+    gTc_matrix - transformation matrix from global fram to camera frame
+    robot_center_offset - center of robot in marker's frame
 
 Author: Edwin Ooi Yong Qing
 Credits: Nathan Sprague
