@@ -1,0 +1,7 @@
+{
+  "package_name": "ros2_aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/ros2_aruco/ros2_aruco_interfaces:msg/ArucoMarkers.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/ros2_aruco/ros2_aruco_interfaces:msg/ArucoMarkersWithRotMatrix.msg"
+  ]
+}

@@ -1,0 +1,364 @@
+[0.459s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs
+[1.072s] -- The C compiler identification is GNU 11.4.0
+[1.835s] -- The CXX compiler identification is GNU 11.4.0
+[1.936s] -- Detecting C compiler ABI info
+[2.544s] -- Detecting C compiler ABI info - done
+[2.674s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.674s] -- Detecting C compile features
+[2.674s] -- Detecting C compile features - done
+[2.675s] -- Detecting CXX compiler ABI info
+[3.034s] -- Detecting CXX compiler ABI info - done
+[3.068s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.069s] -- Detecting CXX compile features
+[3.070s] -- Detecting CXX compile features - done
+[3.087s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.784s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.820s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.884s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.715s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.593s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.165s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.174s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.312s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.313s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.313s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.426s] -- Found PythonExtra: .so  
+[11.927s] -- Configuring done
+[12.366s] -- Generating done
+[12.376s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs
+[13.575s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs
+[13.577s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs -- -j4 -l4
+[13.920s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.151s] [  1%] Built target nav_2d_msgs__cpp
+[18.399s] [  1%] Built target ament_cmake_python_copy_nav_2d_msgs
+[18.492s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.519s] [  4%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[24.542s] [  5%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[27.014s] [  7%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[28.933s] [  8%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[31.039s] [  9%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[32.629s] [ 11%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[34.296s] [ 12%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.766s] [ 12%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[34.829s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[38.369s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[40.377s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[43.219s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[45.256s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[48.514s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[51.670s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[54.037s] [ 23%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[54.520s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[56.173s] running egg_info
+[56.181s] creating nav_2d_msgs.egg-info
+[56.182s] writing nav_2d_msgs.egg-info/PKG-INFO
+[56.182s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[56.183s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[56.183s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[56.205s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[56.207s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[56.389s] [ 23%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[56.468s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[58.707s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[59.962s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[61.256s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[62.640s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[64.010s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[65.523s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[66.851s] [ 35%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[67.100s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[67.161s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[71.216s] [ 38%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[71.490s] [ 39%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[71.708s] [ 40%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[71.923s] [ 42%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[72.088s] [ 43%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[72.374s] [ 45%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[72.608s] [ 46%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[72.936s] [ 46%] Built target nav_2d_msgs__rosidl_generator_c
+[73.035s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[75.597s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[77.362s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[79.085s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[80.768s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[82.197s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[84.129s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[85.543s] [ 57%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[85.871s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[85.939s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[87.876s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[88.059s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[88.205s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[88.385s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[88.591s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[88.765s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[88.956s] [ 69%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[89.252s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_c
+[89.300s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[92.479s] [ 71%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[92.688s] [ 73%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[92.912s] [ 74%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[93.104s] [ 76%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[93.325s] [ 77%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[93.596s] [ 78%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[93.758s] [ 80%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[93.965s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[94.140s] [ 80%] Built target nav_2d_msgs
+[94.264s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[99.047s] [ 81%] Built target nav_2d_msgs__py
+[99.184s] [ 83%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[99.857s] [ 84%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[100.326s] [ 85%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[100.880s] [ 87%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[101.452s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[101.768s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[102.065s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so[0m
+[102.249s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[102.428s] [ 92%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[103.102s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[103.253s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[103.350s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[103.956s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[104.238s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[104.424s] [ 98%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[105.132s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[105.371s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[105.440s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs -- -j4 -l4
+[106.942s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs
+[106.968s] -- Install configuration: ""
+[106.989s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[106.989s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[106.990s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[106.991s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[106.991s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[106.991s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[106.994s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[106.994s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[106.994s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[106.999s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.003s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[107.004s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[107.004s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[107.015s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[107.019s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[107.023s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[107.023s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[107.024s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[107.027s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[107.028s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[107.036s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[107.041s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[107.047s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[107.051s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[107.052s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[107.055s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[107.059s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[107.062s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[107.062s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[107.062s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[107.063s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[107.064s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[107.065s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[107.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[107.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[107.065s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[107.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.065s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[107.065s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[107.066s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[107.066s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[107.066s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[107.066s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[107.066s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[107.066s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[107.066s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[107.067s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[107.067s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[107.067s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[107.075s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[107.080s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[107.089s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.090s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[107.090s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[107.090s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[107.090s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[107.090s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[107.100s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[107.101s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[107.102s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[107.103s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[107.103s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[107.103s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[107.103s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[107.117s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.117s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[107.117s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[107.118s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[107.118s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[107.118s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[107.118s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[107.118s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[107.119s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[107.119s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[107.119s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[107.119s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[107.123s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[107.123s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[107.124s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[107.125s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[107.126s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[107.126s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[107.126s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[107.126s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[107.126s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[107.126s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[107.127s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[107.137s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[107.137s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[107.138s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[107.139s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[107.139s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[107.139s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[107.139s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[107.139s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[107.143s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.15-py3.10.egg-info
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.15-py3.10.egg-info/SOURCES.txt
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.15-py3.10.egg-info/PKG-INFO
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.15-py3.10.egg-info/top_level.txt
+[107.144s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.15-py3.10.egg-info/dependency_links.txt
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[107.145s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[107.146s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[107.147s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[107.147s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[107.147s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[107.148s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[107.148s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[107.148s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[107.148s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[107.149s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[107.149s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[107.149s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[107.149s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[107.276s] Listing '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[107.276s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py'...
+[107.276s] Listing '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[107.276s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py'...
+[107.276s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py'...
+[107.276s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[107.277s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[107.277s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[107.277s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[107.277s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[107.299s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[107.300s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.305s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[107.305s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.305s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[107.305s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[107.305s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[107.306s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[107.306s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[107.306s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[107.315s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[107.316s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[107.322s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[107.322s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[107.322s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[107.326s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[107.333s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[107.336s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[107.336s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[107.336s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[107.337s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[107.343s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[107.358s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[107.358s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[107.358s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[107.359s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[107.359s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[107.359s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[107.359s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[107.360s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[107.365s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[107.368s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[107.368s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[107.368s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[107.380s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[107.380s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[107.380s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[107.381s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[107.381s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[107.381s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[107.385s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[107.385s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[107.385s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[107.386s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[107.386s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[107.386s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[107.392s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[107.392s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[107.392s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[107.392s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[107.392s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.400s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[107.400s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[107.404s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[107.404s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[107.404s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[107.409s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[107.409s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[107.409s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[107.468s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav_2d_msgs

@@ -1,0 +1,478 @@
+[0.526s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs
+[0.857s] -- The C compiler identification is GNU 11.4.0
+[1.159s] -- The CXX compiler identification is GNU 11.4.0
+[1.211s] -- Detecting C compiler ABI info
+[1.685s] -- Detecting C compiler ABI info - done
+[1.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.755s] -- Detecting C compile features
+[1.756s] -- Detecting C compile features - done
+[1.791s] -- Detecting CXX compiler ABI info
+[2.293s] -- Detecting CXX compiler ABI info - done
+[2.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.357s] -- Detecting CXX compile features
+[2.360s] -- Detecting CXX compile features - done
+[2.374s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.205s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.024s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.075s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.441s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.036s] -- Found nav_2d_msgs: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[5.414s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.883s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.973s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.548s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.564s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.672s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.672s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.672s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.778s] -- Found PythonExtra: .so  
+[12.540s] -- Configuring done
+[12.997s] -- Generating done
+[13.017s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/dwb_msgs
+[13.071s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs
+[13.073s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/dwb_msgs -- -j4 -l4
+[13.361s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.898s] [  1%] Built target dwb_msgs__cpp
+[20.031s] [  1%] Built target ament_cmake_python_copy_dwb_msgs
+[20.140s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.722s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[26.090s] [  4%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[27.191s] [  5%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[28.513s] [  6%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[29.681s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[30.860s] [  8%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[32.378s] [  9%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[33.696s] [ 10%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[34.814s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[36.059s] [ 12%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[36.333s] [ 12%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[36.384s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[39.500s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[40.583s] [ 15%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[42.083s] [ 16%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[43.345s] [ 17%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[44.733s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[45.997s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[47.262s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[48.725s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[49.954s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[51.345s] [ 24%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[51.797s] [ 24%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[52.825s] running egg_info
+[52.825s] creating dwb_msgs.egg-info
+[52.826s] writing dwb_msgs.egg-info/PKG-INFO
+[52.826s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[52.827s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[52.827s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[52.832s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[52.845s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[52.927s] [ 24%] Built target ament_cmake_python_build_dwb_msgs_egg
+[52.962s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[55.499s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[56.682s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[57.916s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[58.965s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[59.963s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[60.943s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[61.844s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[62.979s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[64.148s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[64.927s] [ 35%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[65.112s] [ 35%] Built target dwb_msgs__rosidl_typesupport_cpp
+[65.168s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[69.563s] [ 37%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[69.716s] [ 38%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[69.863s] [ 40%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[70.208s] [ 41%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[70.425s] [ 42%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[70.670s] [ 43%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[70.921s] [ 44%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[71.191s] [ 45%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[71.399s] [ 46%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[71.542s] [ 47%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[71.744s] [ 47%] Built target dwb_msgs__rosidl_generator_c
+[71.819s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[75.112s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[75.999s] [ 50%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[77.119s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[78.277s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[79.318s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[80.423s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[81.681s] [ 55%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[82.717s] [ 56%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[83.811s] [ 57%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[85.040s] [ 58%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[85.291s] [ 58%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[85.314s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[87.443s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[87.525s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[87.615s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[87.770s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[87.909s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[88.012s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[88.146s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[88.263s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[88.397s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[88.576s] [ 70%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[88.774s] [ 70%] Built target dwb_msgs__rosidl_typesupport_c
+[88.804s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[92.600s] [ 72%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[92.698s] [ 73%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[92.839s] [ 74%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[93.031s] [ 75%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[93.176s] [ 76%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[93.343s] [ 77%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[93.522s] [ 78%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[93.643s] [ 80%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[93.762s] [ 81%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[93.919s] [ 82%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[94.147s] [ 82%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[94.253s] [ 82%] Built target dwb_msgs
+[94.366s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[102.746s] [ 83%] Built target dwb_msgs__py
+[102.852s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[103.309s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[103.713s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[104.248s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[104.688s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[105.134s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[105.551s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[105.983s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[106.413s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[106.836s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__rosidl_generator_py.so[0m
+[107.052s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[107.187s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[107.710s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[107.973s] [ 95%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[108.072s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[108.552s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[108.805s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[108.886s] [ 98%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[109.407s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[109.572s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[109.623s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/dwb_msgs -- -j4 -l4
+[110.520s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/dwb_msgs
+[110.538s] -- Install configuration: ""
+[110.539s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[110.540s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.540s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.541s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[110.541s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[110.542s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[110.542s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[110.543s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.543s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[110.544s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[110.545s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[110.545s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[110.546s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[110.547s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[110.548s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[110.549s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[110.550s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[110.550s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[110.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[110.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[110.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[110.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[110.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[110.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[110.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[110.555s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.555s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[110.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[110.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[110.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[110.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[110.559s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[110.560s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[110.560s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[110.561s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[110.561s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[110.562s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[110.562s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[110.563s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[110.564s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[110.564s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[110.565s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[110.566s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[110.566s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[110.567s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[110.568s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[110.568s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[110.569s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[110.570s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[110.570s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[110.571s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[110.572s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[110.572s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[110.573s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[110.575s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[110.575s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.576s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.576s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[110.577s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.577s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[110.578s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[110.578s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[110.579s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[110.579s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.580s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.580s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[110.586s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[110.587s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[110.587s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[110.588s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[110.589s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[110.590s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[110.591s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.591s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.591s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[110.592s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[110.593s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[110.593s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.594s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[110.595s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[110.595s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[110.596s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[110.596s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[110.597s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[110.609s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[110.610s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[110.611s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[110.612s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[110.613s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[110.614s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[110.614s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[110.616s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.617s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[110.617s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.618s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[110.618s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[110.623s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[110.624s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[110.624s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[110.625s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[110.626s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[110.626s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[110.633s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[110.634s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[110.635s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[110.636s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[110.636s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[110.637s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[110.638s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[110.638s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[110.639s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[110.645s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[110.646s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[110.647s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.647s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.647s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[110.648s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.649s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[110.649s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[110.653s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[110.654s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[110.655s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[110.655s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.656s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.656s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[110.660s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[110.661s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[110.661s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[110.662s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[110.669s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[110.670s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[110.672s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[110.673s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.673s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.674s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[110.675s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.675s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[110.676s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[110.678s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[110.680s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[110.685s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[110.686s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[110.686s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[110.687s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[110.688s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.688s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.689s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[110.690s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[110.691s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[110.691s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[110.692s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[110.693s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[110.694s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[110.695s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[110.695s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[110.696s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[110.697s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[110.698s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[110.699s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[110.700s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[110.701s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[110.702s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[110.702s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[110.702s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[110.703s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[110.704s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[110.705s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[110.705s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[110.710s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[110.710s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[110.710s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[110.710s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[110.710s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[110.711s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[110.711s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[110.711s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[110.711s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[110.711s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[110.712s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[110.712s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[110.712s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[110.712s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[110.713s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[110.714s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[110.719s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[110.720s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[110.721s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[110.722s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[110.723s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[110.724s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.15-py3.10.egg-info
+[110.724s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.15-py3.10.egg-info/SOURCES.txt
+[110.724s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.15-py3.10.egg-info/PKG-INFO
+[110.725s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.15-py3.10.egg-info/top_level.txt
+[110.726s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.15-py3.10.egg-info/dependency_links.txt
+[110.726s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs
+[110.727s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[110.728s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[110.729s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[110.729s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg
+[110.730s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[110.731s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[110.731s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[110.732s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[110.732s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[110.733s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[110.734s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[110.734s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[110.735s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[110.735s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[110.736s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[110.737s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[110.738s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv
+[110.738s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[110.739s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[110.740s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[110.740s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[110.741s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[110.744s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[110.745s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[110.746s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[110.747s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[110.747s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[110.748s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[110.748s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[110.749s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[110.858s] Listing '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[110.858s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[110.858s] Listing '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[110.859s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py'...
+[110.859s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py'...
+[110.859s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[110.859s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[110.860s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py'...
+[110.860s] Listing '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[110.860s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py'...
+[110.860s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[110.860s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[110.860s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py'...
+[110.861s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py'...
+[110.861s] Compiling '/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py'...
+[110.877s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[110.879s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.880s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[110.881s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.882s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[110.884s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.884s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[110.887s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[110.893s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[110.894s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[110.895s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[110.895s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[110.898s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[110.899s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[110.900s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[110.900s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[110.901s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[110.902s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[110.903s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[110.903s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[110.903s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[110.904s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[110.904s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[110.908s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[110.908s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[110.908s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[110.911s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[110.911s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[110.912s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[110.912s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[110.913s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[110.913s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[110.913s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[110.914s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[110.914s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[110.914s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[110.915s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[110.915s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[110.915s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[110.916s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[110.916s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[110.916s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[110.916s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[110.917s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[110.917s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[110.927s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[110.927s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[110.927s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[110.927s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[110.928s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[110.928s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[110.928s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[110.928s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[110.928s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[110.929s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[110.929s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[110.929s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[110.929s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[110.929s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[110.930s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[110.930s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[110.930s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[110.930s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[110.930s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[110.931s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[110.931s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[110.931s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[110.932s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[110.933s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[110.933s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[110.941s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/dwb_msgs

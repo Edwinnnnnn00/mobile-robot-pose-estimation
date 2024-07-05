@@ -1,0 +1,111 @@
+[0.129s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.555s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.570s] -- Detecting CXX compile features
+[0.570s] -- Detecting CXX compile features - done
+[0.572s] -- Create Release Build.
+[0.575s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.958s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.024s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.033s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.045s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.524s] -- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)
+[1.632s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.637s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.781s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.818s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.884s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.899s] -- Looking for pthread.h
+[1.999s] -- Looking for pthread.h - found
+[2.000s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.098s] -- Found Threads: TRUE  
+[2.381s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.468s] -- Found realsense2_camera_msgs: 4.54.1 (/opt/ros/humble/share/realsense2_camera_msgs/cmake)
+[2.548s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.657s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.053s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.166s] -- Build for ROS2 Humble
+[3.298s] -- Configuring done
+[3.337s] -- Generating done
+[3.344s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera
+[3.370s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera
+[3.370s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera -- -j4 -l4
+[3.460s] [  6%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[3.465s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[3.467s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[3.486s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[14.924s] [ 31%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[15.185s] [ 31%] Built target realsense2_camera_node
+[15.201s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[28.836s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[39.693s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[40.711s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[41.729s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[46.538s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[52.120s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[53.724s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[67.621s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[70.452s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[78.635s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[79.421s] [100%] Built target realsense2_camera
+[79.438s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera -- -j4 -l4
+[79.533s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera
+[79.544s] -- Install configuration: "Release"
+[79.544s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[79.545s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[79.545s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[79.550s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[79.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include
+[79.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/ros_utils.h
+[79.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/ros_param_backend.h
+[79.551s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/ros_sensor.h
+[79.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/constants.h
+[79.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/t265_realsense_node.h
+[79.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/image_publisher.h
+[79.552s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/named_filter.h
+[79.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/realsense_node_factory.h
+[79.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/dynamic_params.h
+[79.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/base_realsense_node.h
+[79.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/profile_manager.h
+[79.553s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/include/sensor_params.h
+[79.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch
+[79.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[79.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[79.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[79.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[79.555s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[79.555s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[79.555s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[79.556s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[79.557s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[79.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[79.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[79.559s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.559s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[79.559s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[79.559s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[79.562s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera

@@ -1,0 +1,161 @@
+[0.777s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces -- -j4 -l4
+[1.067s] [  2%] Built target ros2_aruco_interfaces__cpp
+[1.098s] [ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[1.121s] [ 12%] Built target ament_cmake_python_copy_ros2_aruco_interfaces
+[1.270s] [ 23%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[1.270s] [ 33%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.285s] [ 43%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[1.301s] [ 53%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[1.390s] [ 64%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[1.425s] [ 74%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[1.560s] [ 74%] Built target ros2_aruco_interfaces
+[1.749s] [ 76%] Built target ros2_aruco_interfaces__py
+[1.857s] [ 84%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[2.679s] running egg_info
+[2.679s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[2.679s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[2.679s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[2.697s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[2.697s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[2.822s] [ 84%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[2.945s] [ 89%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[3.028s] [ 94%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.111s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.155s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces -- -j4 -l4
+[3.991s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces
+[4.063s] -- Install configuration: ""
+[4.063s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+[4.063s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.063s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers_with_rot_matrix.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__struct.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__functions.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support.h
+[4.064s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__functions.c
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+[4.065s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.066s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.066s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.066s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.066s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[4.070s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__rosidl_typesupport_fastrtps_c.h
+[4.070s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__struct.hpp
+[4.071s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__builder.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__traits.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers_with_rot_matrix.hpp
+[4.072s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/dds_fastrtps
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__rosidl_typesupport_fastrtps_cpp.hpp
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.073s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.074s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.074s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.074s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.074s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__rosidl_typesupport_introspection_c.h
+[4.074s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support.c
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[4.075s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__rosidl_typesupport_introspection_cpp.hpp
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support.cpp
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+[4.076s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info
+[4.077s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.077s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[4.077s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[4.077s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.077s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces
+[4.077s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+[4.077s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.077s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[4.078s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.078s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+[4.078s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg
+[4.078s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_with_rot_matrix_s.c
+[4.078s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+[4.087s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+[4.087s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_with_rot_matrix.py
+[4.087s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+[4.087s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.088s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.088s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.210s] Listing '/home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+[4.211s] Listing '/home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+[4.216s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.216s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.216s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.238s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+[4.242s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkersWithRotMatrix.idl
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkersWithRotMatrix.msg
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+[4.243s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv
+[4.244s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv
+[4.244s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.245s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.246s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.246s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+[4.246s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.246s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.249s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.249s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[4.249s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.250s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+[4.250s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.250s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.267s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.269s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.269s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.270s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.270s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.270s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.270s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+[4.270s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+[4.271s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml
+[4.320s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces

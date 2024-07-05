@@ -1,0 +1,22 @@
+[4.153s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/map_server': PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/build/map_server/prefix_override:/home/edwinooi/Desktop/foxy_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/map_server build --build-base /home/edwinooi/Desktop/foxy_ws/build/map_server/build install --record /home/edwinooi/Desktop/foxy_ws/build/map_server/install.log --single-version-externally-managed
+[5.340s] running egg_info
+[5.340s] writing ../../../build/map_server/map_server.egg-info/PKG-INFO
+[5.340s] writing dependency_links to ../../../build/map_server/map_server.egg-info/dependency_links.txt
+[5.340s] writing entry points to ../../../build/map_server/map_server.egg-info/entry_points.txt
+[5.340s] writing requirements to ../../../build/map_server/map_server.egg-info/requires.txt
+[5.341s] writing top-level names to ../../../build/map_server/map_server.egg-info/top_level.txt
+[5.351s] reading manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+[5.357s] writing manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'
+[5.387s] running build
+[5.387s] running build_py
+[5.387s] running install
+[5.388s] running install_lib
+[5.389s] running install_data
+[5.389s] running install_egg_info
+[5.392s] removing '/home/edwinooi/Desktop/foxy_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)
+[5.393s] Copying ../../../build/map_server/map_server.egg-info to /home/edwinooi/Desktop/foxy_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[5.394s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.394s]   warnings.warn(
+[5.395s] running install_scripts
+[5.458s] writing list of installed files to '/home/edwinooi/Desktop/foxy_ws/build/map_server/install.log'
+[5.797s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/map_server' returned '0': PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/build/map_server/prefix_override:/home/edwinooi/Desktop/foxy_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/map_server build --build-base /home/edwinooi/Desktop/foxy_ws/build/map_server/build install --record /home/edwinooi/Desktop/foxy_ws/build/map_server/install.log --single-version-externally-managed

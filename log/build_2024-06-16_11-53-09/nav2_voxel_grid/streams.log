@@ -1,0 +1,39 @@
+[1.193s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid -- -j4 -l4
+[1.384s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[1.389s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.425s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.495s] [ 20%] Built target gtest_main
+[1.546s] [ 40%] Built target gtest
+[1.559s] [ 60%] Built target voxel_grid
+[1.638s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[1.668s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[1.820s] [ 80%] Built target voxel_grid_tests
+[1.872s] [100%] Built target voxel_grid_bresenham_3d
+[3.363s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid -- -j4 -l4
+[3.602s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid
+[3.632s] -- Install configuration: "Release"
+[3.655s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[3.656s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/include
+[3.656s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[3.657s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[3.657s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[3.657s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[3.658s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[3.658s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[3.658s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[3.659s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[3.659s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[3.660s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[3.660s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[3.660s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[3.661s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[3.665s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[3.665s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[3.665s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[3.665s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.666s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.666s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[3.666s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[3.666s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[3.677s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[3.688s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_voxel_grid

@@ -1,0 +1,1738 @@
+[0.000000] (-) TimerEvent: {}
+[0.000481] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000547] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.000629] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.000676] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000788] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000900] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera_msgs')])}
+[0.000999] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera_msgs')])}
+[0.001070] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/edwinooi/Desktop/foxy_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/edwinooi/Desktop/foxy_ws/install/turtlebot3_gazebo')])}
+[0.001145] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.094418] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.099130] (-) TimerEvent: {}
+[0.199901] (-) TimerEvent: {}
+[0.200882] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.288719] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.303488] (-) TimerEvent: {}
+[0.404297] (-) TimerEvent: {}
+[0.461984] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.462576] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/realsense2_camera_msgs'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.469042] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.469103] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/turtlebot3_fake_node'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.489763] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.489887] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/turtlebot3_gazebo'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.504548] (-) TimerEvent: {}
+[0.605445] (-) TimerEvent: {}
+[0.707224] (-) TimerEvent: {}
+[0.808097] (-) TimerEvent: {}
+[0.810522] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.822985] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.828326] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.908195] (-) TimerEvent: {}
+[1.015956] (-) TimerEvent: {}
+[1.116352] (-) TimerEvent: {}
+[1.136808] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.149041] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.189543] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.193912] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.222228] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.222521] (-) TimerEvent: {}
+[1.252495] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.322640] (-) TimerEvent: {}
+[1.430172] (-) TimerEvent: {}
+[1.514413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.530541] (-) TimerEvent: {}
+[1.541262] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.546269] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.551086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.576866] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.595511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607972] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.608212] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.608337] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.636856] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.637111] (-) TimerEvent: {}
+[1.637315] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.676460] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.676698] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.676838] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.698053] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.743470] (-) TimerEvent: {}
+[1.843859] (-) TimerEvent: {}
+[1.947596] (-) TimerEvent: {}
+[2.004578] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.021811] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.043595] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.044043] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.044921] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.049667] (-) TimerEvent: {}
+[2.055796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.068751] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.109650] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.109892] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.110015] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.121397] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.130761] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.133757] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.135536] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.142837] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.149768] (-) TimerEvent: {}
+[2.250156] (-) TimerEvent: {}
+[2.352194] (-) TimerEvent: {}
+[2.452756] (-) TimerEvent: {}
+[2.565198] (-) TimerEvent: {}
+[2.612449] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.622857] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.665306] (-) TimerEvent: {}
+[2.767666] (-) TimerEvent: {}
+[2.871731] (-) TimerEvent: {}
+[2.877431] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.973658] (-) TimerEvent: {}
+[3.075463] (-) TimerEvent: {}
+[3.120640] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/ros2_aruco', 'build', '--build-base', '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build', 'install', '--record', '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/install.log', '--single-version-externally-managed'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/ros2_aruco/ros2_aruco', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'edwinooi', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/edwinooi', 'OLDPWD': '/home/edwinooi', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'SYSTEMD_EXEC_PID': '1839', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/edwinooi/Desktop/emanual/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'edwinooi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'edwinooi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/prefix_override:/home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces'}, 'shell': False}
+[3.170050] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.181650] (-) TimerEvent: {}
+[3.188977] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.190648] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.201799] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.202074] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[3.202239] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[3.202364] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[3.202484] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.202616] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.202767] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[3.202892] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[3.203031] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[3.203175] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.203306] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[3.207516] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[3.231955] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.281782] (-) TimerEvent: {}
+[3.329726] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[3.381886] (-) TimerEvent: {}
+[3.404233] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.484441] (-) TimerEvent: {}
+[3.562496] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.584545] (-) TimerEvent: {}
+[3.685002] (-) TimerEvent: {}
+[3.691191] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.725025] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.776847] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.800948] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[3.801290] (-) TimerEvent: {}
+[3.801498] (ros2_aruco) StdoutLine: {'line': b'creating ../../../../build/ros2_aruco/ros2_aruco.egg-info\n'}
+[3.801704] (ros2_aruco) StdoutLine: {'line': b'writing ../../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO\n'}
+[3.801889] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ../../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt\n'}
+[3.802043] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ../../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt\n'}
+[3.802173] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ../../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt\n'}
+[3.802305] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ../../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt\n'}
+[3.802432] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.802557] (ros2_aruco) StdoutLine: {'line': b"reading manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.802680] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[3.802802] (ros2_aruco) StdoutLine: {'line': b'running build\n'}
+[3.802920] (ros2_aruco) StdoutLine: {'line': b'running build_py\n'}
+[3.803038] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build\n'}
+[3.803152] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib\n'}
+[3.803266] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.803383] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/__init__.py -> /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.803509] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/aruco_generate_marker.py -> /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.804045] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/aruco_node_with_rotmatrix.py -> /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.804588] (ros2_aruco) StdoutLine: {'line': b'copying ros2_aruco/aruco_node.py -> /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco\n'}
+[3.805352] (ros2_aruco) StdoutLine: {'line': b'running install\n'}
+[3.808923] (ros2_aruco) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.812580] (ros2_aruco) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.812780] (ros2_aruco) StdoutLine: {'line': b'running install_lib\n'}
+[3.812911] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco\n'}
+[3.813032] (ros2_aruco) StdoutLine: {'line': b'copying /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco\n'}
+[3.813152] (ros2_aruco) StdoutLine: {'line': b'copying /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco\n'}
+[3.813270] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.813552] (ros2_aruco) StdoutLine: {'line': b'copying /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node_with_rotmatrix.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco\n'}
+[3.813712] (ros2_aruco) StdoutLine: {'line': b'copying /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco\n'}
+[3.826481] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc\n'}
+[3.826838] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc\n'}
+[3.827728] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node_with_rotmatrix.py to aruco_node_with_rotmatrix.cpython-310.pyc\n'}
+[3.841518] (ros2_aruco) StdoutLine: {'line': b'byte-compiling /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc\n'}
+[3.848258] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[3.849426] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ament_index\n'}
+[3.849803] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ament_index/resource_index\n'}
+[3.850027] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[3.850240] (ros2_aruco) StdoutLine: {'line': b'copying resource/ros2_aruco -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[3.850471] (ros2_aruco) StdoutLine: {'line': b'copying package.xml -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco\n'}
+[3.850703] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[3.850943] (ros2_aruco) StdoutLine: {'line': b'copying launch/aruco_recognition.launch.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[3.851099] (ros2_aruco) StdoutLine: {'line': b'copying launch/aruco_recognition_with_rotmatrix.launch.py -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[3.853969] (ros2_aruco) StdoutLine: {'line': b'creating /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[3.854186] (ros2_aruco) StdoutLine: {'line': b'copying config/aruco_parameters.yaml -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[3.857977] (ros2_aruco) StdoutLine: {'line': b'copying config/aruco_parameters_new.yaml -> /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[3.858386] (ros2_aruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.869852] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.881748] (ros2_aruco) StdoutLine: {'line': b'Copying ../../../../build/ros2_aruco/ros2_aruco.egg-info to /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info\n'}
+[3.893567] (ros2_aruco) StdoutLine: {'line': b'running install_scripts\n'}
+[3.901410] (-) TimerEvent: {}
+[3.903859] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[3.955139] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.964976] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.983263] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[3.983813] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[3.984046] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node_with_rotmatrix script to /home/edwinooi/Desktop/foxy_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[3.985231] (ros2_aruco) StdoutLine: {'line': b"writing list of installed files to '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco/install.log'\n"}
+[4.002525] (-) TimerEvent: {}
+[4.069685] (ros2_aruco) CommandEnded: {'returncode': 0}
+[4.106880] (-) TimerEvent: {}
+[4.205380] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[4.206747] (ros2_aruco_interfaces) JobStarted: {'identifier': 'ros2_aruco_interfaces'}
+[4.206957] (-) TimerEvent: {}
+[4.262956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[4.307061] (-) TimerEvent: {}
+[4.385648] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.421683] (-) TimerEvent: {}
+[4.439807] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'cmake'}
+[4.440196] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/ros2_aruco/ros2_aruco_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/ros2_aruco_interfaces'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[4.521781] (-) TimerEvent: {}
+[4.574982] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.621886] (-) TimerEvent: {}
+[4.647519] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.721990] (-) TimerEvent: {}
+[4.821740] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.821998] (-) TimerEvent: {}
+[4.865235] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.925727] (-) TimerEvent: {}
+[5.026183] (-) TimerEvent: {}
+[5.093752] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.126283] (-) TimerEvent: {}
+[5.226748] (-) TimerEvent: {}
+[5.261728] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.317720] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.321730] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.322021] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.329669] (-) TimerEvent: {}
+[5.337722] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.406091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.431779] (-) TimerEvent: {}
+[5.502193] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.531881] (-) TimerEvent: {}
+[5.553784] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.617687] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[5.645717] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[5.645951] (-) TimerEvent: {}
+[5.646133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.663093] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[5.681317] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.682693] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.693721] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.728345] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.741344] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.746021] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.746282] (-) TimerEvent: {}
+[5.747135] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.748369] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.752590] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.761714] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.774892] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.849032] (-) TimerEvent: {}
+[5.849375] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.949665] (-) TimerEvent: {}
+[6.015402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[6.049878] (-) TimerEvent: {}
+[6.055056] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[6.101802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[6.110971] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.128806] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[6.129068] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[6.143069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[6.143329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[6.157779] (-) TimerEvent: {}
+[6.166916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[6.167173] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[6.190762] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[6.191057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[6.212037] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[6.217661] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.221829] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[6.245667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[6.261663] (-) TimerEvent: {}
+[6.365665] (-) TimerEvent: {}
+[6.469668] (-) TimerEvent: {}
+[6.485662] (turtlebot3_fake_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.569844] (-) TimerEvent: {}
+[6.605662] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.663092] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.669955] (-) TimerEvent: {}
+[6.776630] (-) TimerEvent: {}
+[6.838248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.865753] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[6.867251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[6.876743] (-) TimerEvent: {}
+[6.946092] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.957750] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[6.976864] (-) TimerEvent: {}
+[7.020246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[7.040456] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[7.080398] (-) TimerEvent: {}
+[7.101245] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.101517] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.125305] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.152859] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[7.183647] (-) TimerEvent: {}
+[7.281019] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.283776] (-) TimerEvent: {}
+[7.297666] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.325697] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.365820] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.366174] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[7.385576] (-) TimerEvent: {}
+[7.389922] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[7.413388] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.423600] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.485671] (-) TimerEvent: {}
+[7.490626] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.513602] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[7.588491] (-) TimerEvent: {}
+[7.688911] (-) TimerEvent: {}
+[7.753025] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[7.783620] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.789769] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[7.790009] (-) TimerEvent: {}
+[7.890411] (-) TimerEvent: {}
+[7.909475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.918043] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.926508] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[7.990529] (-) TimerEvent: {}
+[8.009103] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[8.094431] (-) TimerEvent: {}
+[8.169128] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.179166] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[8.180045] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[8.180900] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.182675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.185487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[8.194636] (-) TimerEvent: {}
+[8.229719] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.242280] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[8.253719] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[8.279917] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[8.280177] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[8.280303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.297387] (-) TimerEvent: {}
+[8.308543] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[8.308827] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[8.397499] (-) TimerEvent: {}
+[8.466793] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.497654] (-) TimerEvent: {}
+[8.585675] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.594258] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[8.599739] (-) TimerEvent: {}
+[8.614282] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.665868] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[8.678163] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[8.689548] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.701748] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.701992] (-) TimerEvent: {}
+[8.702187] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.702349] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.751913] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[8.767732] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.778836] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[8.803000] (-) TimerEvent: {}
+[8.897075] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[8.903100] (-) TimerEvent: {}
+[8.953411] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[8.984837] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.005408] (-) TimerEvent: {}
+[9.017352] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[9.043026] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[9.061899] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[9.111201] (-) TimerEvent: {}
+[9.143351] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.201429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[9.202864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.209749] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.210964] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.211268] (-) TimerEvent: {}
+[9.266460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[9.273793] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[9.311389] (-) TimerEvent: {}
+[9.355994] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.389704] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs\n'}
+[9.421755] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[9.422472] (-) TimerEvent: {}
+[9.422737] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[9.422795] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/realsense2_camera_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[9.485952] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.509732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.522595] (-) TimerEvent: {}
+[9.555439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.622714] (-) TimerEvent: {}
+[9.675798] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.681927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.732993] (-) TimerEvent: {}
+[9.753179] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[9.753829] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.838982] (-) TimerEvent: {}
+[9.845827] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.909311] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_realsense2_camera_msgs\n'}
+[9.939091] (-) TimerEvent: {}
+[10.039478] (-) TimerEvent: {}
+[10.139958] (-) TimerEvent: {}
+[10.240426] (-) TimerEvent: {}
+[10.340843] (-) TimerEvent: {}
+[10.441227] (-) TimerEvent: {}
+[10.545000] (-) TimerEvent: {}
+[10.645375] (-) TimerEvent: {}
+[10.673663] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.728890] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Generating done\n'}
+[10.729310] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node\n'}
+[10.745470] (-) TimerEvent: {}
+[10.856006] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[10.856745] (-) TimerEvent: {}
+[10.857985] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[10.858080] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node', '--', '-j4', '-l4'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[10.941998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[10.956865] (-) TimerEvent: {}
+[11.057539] (-) TimerEvent: {}
+[11.163825] (-) TimerEvent: {}
+[11.206810] (realsense2_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[11.211319] (realsense2_camera_msgs) StdoutLine: {'line': b'creating realsense2_camera_msgs.egg-info\n'}
+[11.213763] (realsense2_camera_msgs) StdoutLine: {'line': b'writing realsense2_camera_msgs.egg-info/PKG-INFO\n'}
+[11.216073] (realsense2_camera_msgs) StdoutLine: {'line': b'writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt\n'}
+[11.216302] (realsense2_camera_msgs) StdoutLine: {'line': b'writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt\n'}
+[11.216442] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[11.250007] (realsense2_camera_msgs) StdoutLine: {'line': b"reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[11.250317] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[11.263935] (-) TimerEvent: {}
+[11.278079] (turtlebot3_fake_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o\x1b[0m\n'}
+[11.364053] (-) TimerEvent: {}
+[11.381891] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.457128] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg\n'}
+[11.464225] (-) TimerEvent: {}
+[11.565668] (-) TimerEvent: {}
+[11.673679] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.673934] (-) TimerEvent: {}
+[11.774972] (-) TimerEvent: {}
+[11.886216] (-) TimerEvent: {}
+[11.993227] (-) TimerEvent: {}
+[12.106200] (-) TimerEvent: {}
+[12.143233] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.171826] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.206307] (-) TimerEvent: {}
+[12.306810] (-) TimerEvent: {}
+[12.378178] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target realsense2_camera_msgs__cpp\n'}
+[12.406964] (-) TimerEvent: {}
+[12.424371] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.447962] (realsense2_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.465675] (realsense2_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.513657] (-) TimerEvent: {}
+[12.584345] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[12.589710] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.617655] (-) TimerEvent: {}
+[12.721717] (-) TimerEvent: {}
+[12.767370] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.768225] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.768457] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.768643] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.825655] (-) TimerEvent: {}
+[12.841343] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.863928] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.927043] (-) TimerEvent: {}
+[13.007873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.027149] (-) TimerEvent: {}
+[13.127485] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.127747] (-) TimerEvent: {}
+[13.163690] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.188090] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.227855] (-) TimerEvent: {}
+[13.333657] (-) TimerEvent: {}
+[13.370718] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.394196] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.405282] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.433462] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.433746] (-) TimerEvent: {}
+[13.534163] (-) TimerEvent: {}
+[13.637826] (-) TimerEvent: {}
+[13.739542] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.739770] (-) TimerEvent: {}
+[13.766442] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces\n'}
+[13.828682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.867417] (ros2_aruco_interfaces) CommandEnded: {'returncode': 0}
+[13.868066] (-) TimerEvent: {}
+[13.872042] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'build'}
+[13.872132] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[13.969048] (-) TimerEvent: {}
+[14.069729] (-) TimerEvent: {}
+[14.155272] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[14.169838] (-) TimerEvent: {}
+[14.206555] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.270043] (-) TimerEvent: {}
+[14.370445] (-) TimerEvent: {}
+[14.386188] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.389080] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_ros2_aruco_interfaces\n'}
+[14.470545] (-) TimerEvent: {}
+[14.571202] (-) TimerEvent: {}
+[14.671731] (-) TimerEvent: {}
+[14.780166] (-) TimerEvent: {}
+[14.867711] (realsense2_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o\x1b[0m\n'}
+[14.880277] (-) TimerEvent: {}
+[14.980950] (-) TimerEvent: {}
+[15.084459] (-) TimerEvent: {}
+[15.166266] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.184567] (-) TimerEvent: {}
+[15.287038] (-) TimerEvent: {}
+[15.392926] (-) TimerEvent: {}
+[15.441718] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[15.461715] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[15.493030] (-) TimerEvent: {}
+[15.606096] (-) TimerEvent: {}
+[15.617288] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[15.650817] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo\n'}
+[15.706205] (-) TimerEvent: {}
+[15.796035] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[15.800470] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[15.800581] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'edwinooi'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edwinooi'), ('OLDPWD', '/home/edwinooi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('SYSTEMD_EXEC_PID', '1839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'edwinooi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edwinooi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/edwinooi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edwinooi-HP-Laptop-15-bs0xx:@/tmp/.ICE-unix/1812,unix/edwinooi-HP-Laptop-15-bs0xx:/tmp/.ICE-unix/1812'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b1b1c1d9_e6d4_4ece_9ea8_814b71b27a69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edwinooi/Desktop/foxy_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/emanual/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[15.807565] (-) TimerEvent: {}
+[15.912881] (-) TimerEvent: {}
+[15.969331] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[16.013291] (-) TimerEvent: {}
+[16.077755] (ros2_aruco_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.108102] (ros2_aruco_interfaces) StdoutLine: {'line': b'creating ros2_aruco_interfaces.egg-info\n'}
+[16.112294] (ros2_aruco_interfaces) StdoutLine: {'line': b'writing ros2_aruco_interfaces.egg-info/PKG-INFO\n'}
+[16.116862] (-) TimerEvent: {}
+[16.118275] (ros2_aruco_interfaces) StdoutLine: {'line': b'writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt\n'}
+[16.119022] (ros2_aruco_interfaces) StdoutLine: {'line': b'writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt\n'}
+[16.119870] (ros2_aruco_interfaces) StdoutLine: {'line': b"writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[16.153727] (ros2_aruco_interfaces) StdoutLine: {'line': b"reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[16.154880] (ros2_aruco_interfaces) StdoutLine: {'line': b"writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'\n"}
+[16.217042] (-) TimerEvent: {}
+[16.317539] (-) TimerEvent: {}
+[16.320867] (turtlebot3_gazebo) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive2.dir/src/turtlebot3_drive2.cpp.o\x1b[0m\n'}
+[16.327606] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive1.dir/src/turtlebot3_drive1.cpp.o\x1b[0m\n'}
+[16.359857] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[16.417673] (-) TimerEvent: {}
+[16.421829] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg\n'}
+[16.470587] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o\x1b[0m\n'}
+[16.517772] (-) TimerEvent: {}
+[16.519564] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[16.536817] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o\x1b[0m\n'}
+[16.632069] (-) TimerEvent: {}
+[16.749562] (-) TimerEvent: {}
+[16.851497] (-) TimerEvent: {}
+[16.958193] (-) TimerEvent: {}
+[17.058724] (-) TimerEvent: {}
+[17.162513] (-) TimerEvent: {}
+[17.269724] (-) TimerEvent: {}
+[17.370238] (-) TimerEvent: {}
+[17.409917] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[17.477679] (-) TimerEvent: {}
+[17.556880] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c.o\x1b[0m\n'}
+[17.577786] (-) TimerEvent: {}
+[17.678154] (-) TimerEvent: {}
+[17.781675] (-) TimerEvent: {}
+[17.913668] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[17.913950] (-) TimerEvent: {}
+[17.914161] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  7%] Built target ros2_aruco_interfaces__cpp\n'}
+[18.014072] (-) TimerEvent: {}
+[18.117666] (-) TimerEvent: {}
+[18.218039] (-) TimerEvent: {}
+[18.231195] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__functions.c.o\x1b[0m\n'}
+[18.318154] (-) TimerEvent: {}
+[18.418694] (-) TimerEvent: {}
+[18.522957] (-) TimerEvent: {}
+[18.569964] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libros2_aruco_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[18.617856] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[18.623070] (-) TimerEvent: {}
+[18.733840] (-) TimerEvent: {}
+[18.837696] (-) TimerEvent: {}
+[18.942048] (-) TimerEvent: {}
+[19.011032] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c\n'}
+[19.042154] (-) TimerEvent: {}
+[19.143593] (-) TimerEvent: {}
+[19.149746] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.244282] (-) TimerEvent: {}
+[19.344822] (-) TimerEvent: {}
+[19.450756] (-) TimerEvent: {}
+[19.551440] (-) TimerEvent: {}
+[19.651900] (-) TimerEvent: {}
+[19.752377] (-) TimerEvent: {}
+[19.852886] (-) TimerEvent: {}
+[19.953633] (-) TimerEvent: {}
+[20.028401] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[20.053736] (-) TimerEvent: {}
+[20.154121] (-) TimerEvent: {}
+[20.262062] (-) TimerEvent: {}
+[20.299402] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[20.362169] (-) TimerEvent: {}
+[20.469685] (-) TimerEvent: {}
+[20.570145] (-) TimerEvent: {}
+[20.670532] (-) TimerEvent: {}
+[20.771090] (-) TimerEvent: {}
+[20.871511] (-) TimerEvent: {}
+[20.971928] (-) TimerEvent: {}
+[21.072350] (-) TimerEvent: {}
+[21.174151] (-) TimerEvent: {}
+[21.276373] (-) TimerEvent: {}
+[21.381440] (-) TimerEvent: {}
+[21.482074] (-) TimerEvent: {}
+[21.586191] (-) TimerEvent: {}
+[21.686624] (-) TimerEvent: {}
+[21.694006] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[21.787263] (-) TimerEvent: {}
+[21.902344] (-) TimerEvent: {}
+[22.002830] (-) TimerEvent: {}
+[22.017795] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[22.102948] (-) TimerEvent: {}
+[22.203506] (-) TimerEvent: {}
+[22.304121] (-) TimerEvent: {}
+[22.404725] (-) TimerEvent: {}
+[22.505262] (-) TimerEvent: {}
+[22.605788] (-) TimerEvent: {}
+[22.629097] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[22.708571] (-) TimerEvent: {}
+[22.809159] (-) TimerEvent: {}
+[22.909697] (-) TimerEvent: {}
+[23.010231] (-) TimerEvent: {}
+[23.110737] (-) TimerEvent: {}
+[23.211249] (-) TimerEvent: {}
+[23.321883] (-) TimerEvent: {}
+[23.426258] (-) TimerEvent: {}
+[23.528013] (-) TimerEvent: {}
+[23.628590] (-) TimerEvent: {}
+[23.733650] (-) TimerEvent: {}
+[23.839836] (-) TimerEvent: {}
+[23.900681] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.940291] (-) TimerEvent: {}
+[24.049500] (-) TimerEvent: {}
+[24.158102] (-) TimerEvent: {}
+[24.271643] (-) TimerEvent: {}
+[24.319330] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 30%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[24.371760] (-) TimerEvent: {}
+[24.472253] (-) TimerEvent: {}
+[24.572755] (-) TimerEvent: {}
+[24.674438] (-) TimerEvent: {}
+[24.769758] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[24.774555] (-) TimerEvent: {}
+[24.881343] (-) TimerEvent: {}
+[24.981873] (-) TimerEvent: {}
+[25.082874] (-) TimerEvent: {}
+[25.183371] (-) TimerEvent: {}
+[25.283773] (-) TimerEvent: {}
+[25.384191] (-) TimerEvent: {}
+[25.420338] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support.cpp.o\x1b[0m\n'}
+[25.484300] (-) TimerEvent: {}
+[25.584837] (-) TimerEvent: {}
+[25.686049] (-) TimerEvent: {}
+[25.786576] (-) TimerEvent: {}
+[25.887142] (-) TimerEvent: {}
+[25.994962] (-) TimerEvent: {}
+[26.095532] (-) TimerEvent: {}
+[26.196110] (-) TimerEvent: {}
+[26.296676] (-) TimerEvent: {}
+[26.397292] (-) TimerEvent: {}
+[26.497906] (-) TimerEvent: {}
+[26.601100] (-) TimerEvent: {}
+[26.701634] (-) TimerEvent: {}
+[26.805724] (-) TimerEvent: {}
+[26.906259] (-) TimerEvent: {}
+[26.970053] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[27.007975] (-) TimerEvent: {}
+[27.121901] (-) TimerEvent: {}
+[27.225672] (-) TimerEvent: {}
+[27.326192] (-) TimerEvent: {}
+[27.426730] (-) TimerEvent: {}
+[27.527325] (-) TimerEvent: {}
+[27.629131] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[27.629394] (-) TimerEvent: {}
+[27.729853] (-) TimerEvent: {}
+[27.735315] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[27.829947] (-) TimerEvent: {}
+[27.930336] (-) TimerEvent: {}
+[28.030725] (-) TimerEvent: {}
+[28.131274] (-) TimerEvent: {}
+[28.231760] (-) TimerEvent: {}
+[28.332168] (-) TimerEvent: {}
+[28.432573] (-) TimerEvent: {}
+[28.518077] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[28.532701] (-) TimerEvent: {}
+[28.637126] (-) TimerEvent: {}
+[28.737670] (-) TimerEvent: {}
+[28.841932] (-) TimerEvent: {}
+[28.945885] (-) TimerEvent: {}
+[28.966368] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 23%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[29.045991] (-) TimerEvent: {}
+[29.065873] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.153670] (-) TimerEvent: {}
+[29.265809] (-) TimerEvent: {}
+[29.366180] (-) TimerEvent: {}
+[29.466556] (-) TimerEvent: {}
+[29.566952] (-) TimerEvent: {}
+[29.667362] (-) TimerEvent: {}
+[29.767918] (-) TimerEvent: {}
+[29.868799] (-) TimerEvent: {}
+[29.969370] (-) TimerEvent: {}
+[30.069927] (-) TimerEvent: {}
+[30.170436] (-) TimerEvent: {}
+[30.271020] (-) TimerEvent: {}
+[30.371441] (-) TimerEvent: {}
+[30.471867] (-) TimerEvent: {}
+[30.576058] (-) TimerEvent: {}
+[30.634296] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o\x1b[0m\n'}
+[30.683304] (-) TimerEvent: {}
+[30.785672] (-) TimerEvent: {}
+[30.889670] (-) TimerEvent: {}
+[30.896034] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o\x1b[0m\n'}
+[30.978128] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[30.982961] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Turtlebot3Fake::init_parameters()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.983250] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:75:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlebot3Fake::declare_parameter(const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.983452] (turtlebot3_fake_node) StderrLine: {'line': b'   75 |   \x1b[01;31m\x1b[Kthis->declare_parameter("joint_states_frame")\x1b[m\x1b[K;\n'}
+[30.983654] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.989778] (-) TimerEvent: {}
+[30.990402] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[30.990637] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[30.990804] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[30.990975] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[30.991250] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[30.991455] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.991615] (turtlebot3_fake_node) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[30.991750] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.991880] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[30.992029] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:75:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[30.992159] (turtlebot3_fake_node) StderrLine: {'line': b'   75 |   \x1b[01;36m\x1b[Kthis->declare_parameter("joint_states_frame")\x1b[m\x1b[K;\n'}
+[30.992285] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.992425] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[30.992661] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[30.992886] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[30.993114] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[30.993629] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[30.993836] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.993982] (turtlebot3_fake_node) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[30.994111] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.994234] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[30.996645] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:75:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.996893] (turtlebot3_fake_node) StderrLine: {'line': b'   75 |   \x1b[01;36m\x1b[Kthis->declare_parameter("joint_states_frame")\x1b[m\x1b[K;\n'}
+[30.997046] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.997197] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[30.997329] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[30.997459] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[30.997584] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[30.997731] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[30.997885] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.998016] (turtlebot3_fake_node) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[30.998136] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.998246] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[30.998350] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.998453] (turtlebot3_fake_node) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[30.998554] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.998686] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[30.998829] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:76:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlebot3Fake::declare_parameter(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.998960] (turtlebot3_fake_node) StderrLine: {'line': b'   76 |   \x1b[01;31m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[30.999086] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.999209] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[30.999331] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[30.999457] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[30.999586] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[30.999744] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[30.999869] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.999994] (turtlebot3_fake_node) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.000114] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.011812] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.011927] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:76:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.012027] (turtlebot3_fake_node) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[31.012125] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.012218] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.012309] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.012401] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.012492] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.012583] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.012676] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.012768] (turtlebot3_fake_node) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.012857] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.012960] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.013053] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:76:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.013155] (turtlebot3_fake_node) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[31.013245] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.013334] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.013433] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.013522] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.013632] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.013729] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.013820] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.013915] (turtlebot3_fake_node) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.014005] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.014095] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.014187] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.014280] (turtlebot3_fake_node) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.014369] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.014460] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.014572] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlebot3Fake::declare_parameter(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.018496] (turtlebot3_fake_node) StderrLine: {'line': b'   77 |   \x1b[01;31m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[31.018667] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.018807] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.018934] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.019059] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.019182] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.019304] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.019445] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.019571] (turtlebot3_fake_node) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.019692] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.019811] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.019933] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.020069] (turtlebot3_fake_node) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[31.020189] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.020305] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.020423] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.020539] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.020654] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.020771] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.020905] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.021027] (turtlebot3_fake_node) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.021145] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.021267] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.021383] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:77:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.021500] (turtlebot3_fake_node) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[31.037986] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.038220] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.038363] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.038480] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.038593] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.038709] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.038826] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.038959] (turtlebot3_fake_node) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.039073] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.039184] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.039296] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.039409] (turtlebot3_fake_node) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.039523] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.039632] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.039743] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:78:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlebot3Fake::declare_parameter(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.039857] (turtlebot3_fake_node) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[Kthis->declare_parameter("wheels.separation")\x1b[m\x1b[K;\n'}
+[31.039968] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.040078] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.040188] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.040310] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.040422] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.040535] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.040659] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.040775] (turtlebot3_fake_node) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.040885] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.040994] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.041105] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:78:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.041235] (turtlebot3_fake_node) StderrLine: {'line': b'   78 |   \x1b[01;36m\x1b[Kthis->declare_parameter("wheels.separation")\x1b[m\x1b[K;\n'}
+[31.041383] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.041506] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.053805] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.054014] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.054176] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.054310] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.054444] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.054577] (turtlebot3_fake_node) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.054705] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.054830] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.054961] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:78:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.055096] (turtlebot3_fake_node) StderrLine: {'line': b'   78 |   \x1b[01;36m\x1b[Kthis->declare_parameter("wheels.separation")\x1b[m\x1b[K;\n'}
+[31.059585] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.059783] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.059917] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.060032] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.060149] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.060263] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.060375] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.060490] (turtlebot3_fake_node) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.060604] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.060714] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.060834] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.060949] (turtlebot3_fake_node) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.061058] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.061167] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.061278] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:79:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTurtlebot3Fake::declare_parameter(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.061402] (turtlebot3_fake_node) StderrLine: {'line': b'   79 |   \x1b[01;31m\x1b[Kthis->declare_parameter("wheels.radius")\x1b[m\x1b[K;\n'}
+[31.061529] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.061668] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.073737] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.073965] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.074108] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.074248] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.074382] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.074500] (turtlebot3_fake_node) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.074615] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.074741] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.074879] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:79:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.075029] (turtlebot3_fake_node) StderrLine: {'line': b'   79 |   \x1b[01;36m\x1b[Kthis->declare_parameter("wheels.radius")\x1b[m\x1b[K;\n'}
+[31.075165] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.075306] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.075457] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.075614] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.075744] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.075871] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.075995] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.076255] (turtlebot3_fake_node) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.076426] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.076542] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[31.076665] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:79:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.076792] (turtlebot3_fake_node) StderrLine: {'line': b'   79 |   \x1b[01;36m\x1b[Kthis->declare_parameter("wheels.radius")\x1b[m\x1b[K;\n'}
+[31.076915] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.077036] (turtlebot3_fake_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[31.077188] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[31.077314] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.077436] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21\x1b[m\x1b[K,\n'}
+[31.077561] (turtlebot3_fake_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17\x1b[m\x1b[K:\n'}
+[31.077696] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.077839] (turtlebot3_fake_node) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.077957] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.078070] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.085906] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[31.086088] (turtlebot3_fake_node) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[31.086245] (turtlebot3_fake_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.086373] (turtlebot3_fake_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[31.090054] (-) TimerEvent: {}
+[31.190726] (-) TimerEvent: {}
+[31.222737] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[31.290834] (-) TimerEvent: {}
+[31.391313] (-) TimerEvent: {}
+[31.491779] (-) TimerEvent: {}
+[31.492429] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o\x1b[0m\n'}
+[31.591909] (-) TimerEvent: {}
+[31.698669] (-) TimerEvent: {}
+[31.803515] (-) TimerEvent: {}
+[31.907792] (-) TimerEvent: {}
+[31.913434] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[32.007909] (-) TimerEvent: {}
+[32.108789] (-) TimerEvent: {}
+[32.125618] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[32.202256] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.229839] (-) TimerEvent: {}
+[32.333138] (-) TimerEvent: {}
+[32.433536] (-) TimerEvent: {}
+[32.534434] (-) TimerEvent: {}
+[32.635062] (-) TimerEvent: {}
+[32.735550] (-) TimerEvent: {}
+[32.836399] (-) TimerEvent: {}
+[32.937002] (-) TimerEvent: {}
+[33.026724] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support_c.cpp.o\x1b[0m\n'}
+[33.037184] (-) TimerEvent: {}
+[33.138707] (-) TimerEvent: {}
+[33.245978] (-) TimerEvent: {}
+[33.346555] (-) TimerEvent: {}
+[33.451708] (-) TimerEvent: {}
+[33.554688] (-) TimerEvent: {}
+[33.655231] (-) TimerEvent: {}
+[33.763560] (-) TimerEvent: {}
+[33.864011] (-) TimerEvent: {}
+[33.964623] (-) TimerEvent: {}
+[34.071563] (-) TimerEvent: {}
+[34.128597] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[34.171676] (-) TimerEvent: {}
+[34.272358] (-) TimerEvent: {}
+[34.372917] (-) TimerEvent: {}
+[34.450758] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[34.473035] (-) TimerEvent: {}
+[34.573557] (-) TimerEvent: {}
+[34.684968] (-) TimerEvent: {}
+[34.699310] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[34.793692] (-) TimerEvent: {}
+[34.894218] (-) TimerEvent: {}
+[34.920866] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[34.994532] (-) TimerEvent: {}
+[35.094926] (-) TimerEvent: {}
+[35.101838] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[35.195046] (-) TimerEvent: {}
+[35.295569] (-) TimerEvent: {}
+[35.396257] (-) TimerEvent: {}
+[35.438436] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[35.472023] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[35.487569] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[35.496363] (-) TimerEvent: {}
+[35.597915] (-) TimerEvent: {}
+[35.709691] (-) TimerEvent: {}
+[35.814142] (-) TimerEvent: {}
+[35.916196] (-) TimerEvent: {}
+[36.016665] (-) TimerEvent: {}
+[36.117102] (-) TimerEvent: {}
+[36.153250] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 33%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[36.217676] (-) TimerEvent: {}
+[36.250254] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[36.321668] (-) TimerEvent: {}
+[36.422038] (-) TimerEvent: {}
+[36.522571] (-) TimerEvent: {}
+[36.623130] (-) TimerEvent: {}
+[36.723703] (-) TimerEvent: {}
+[36.824075] (-) TimerEvent: {}
+[36.924471] (-) TimerEvent: {}
+[37.024994] (-) TimerEvent: {}
+[37.125486] (-) TimerEvent: {}
+[37.235717] (-) TimerEvent: {}
+[37.336224] (-) TimerEvent: {}
+[37.436746] (-) TimerEvent: {}
+[37.537312] (-) TimerEvent: {}
+[37.637688] (-) TimerEvent: {}
+[37.738098] (-) TimerEvent: {}
+[37.787449] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c.o\x1b[0m\n'}
+[37.838219] (-) TimerEvent: {}
+[37.939190] (-) TimerEvent: {}
+[38.039597] (-) TimerEvent: {}
+[38.140292] (-) TimerEvent: {}
+[38.170966] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers_with_rot_matrix__type_support.c.o\x1b[0m\n'}
+[38.240420] (-) TimerEvent: {}
+[38.273795] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o\x1b[0m\n'}
+[38.342256] (-) TimerEvent: {}
+[38.446818] (-) TimerEvent: {}
+[38.451292] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[38.546935] (-) TimerEvent: {}
+[38.647674] (-) TimerEvent: {}
+[38.721757] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 43%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[38.747793] (-) TimerEvent: {}
+[38.848359] (-) TimerEvent: {}
+[38.849218] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[38.948475] (-) TimerEvent: {}
+[39.052987] (-) TimerEvent: {}
+[39.153580] (-) TimerEvent: {}
+[39.254192] (-) TimerEvent: {}
+[39.354811] (-) TimerEvent: {}
+[39.455363] (-) TimerEvent: {}
+[39.555977] (-) TimerEvent: {}
+[39.656510] (-) TimerEvent: {}
+[39.761034] (-) TimerEvent: {}
+[39.861425] (-) TimerEvent: {}
+[39.896733] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[39.935290] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[39.963310] (-) TimerEvent: {}
+[40.063845] (-) TimerEvent: {}
+[40.103993] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers_with_rot_matrix__type_support.cpp.o\x1b[0m\n'}
+[40.163959] (-) TimerEvent: {}
+[40.184062] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[40.264081] (-) TimerEvent: {}
+[40.364617] (-) TimerEvent: {}
+[40.468671] (-) TimerEvent: {}
+[40.504771] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 53%] Built target ros2_aruco_interfaces__rosidl_typesupport_c\n'}
+[40.568785] (-) TimerEvent: {}
+[40.586202] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[40.669088] (-) TimerEvent: {}
+[40.773560] (-) TimerEvent: {}
+[40.874054] (-) TimerEvent: {}
+[40.974524] (-) TimerEvent: {}
+[41.075016] (-) TimerEvent: {}
+[41.175514] (-) TimerEvent: {}
+[41.293167] (-) TimerEvent: {}
+[41.393657] (-) TimerEvent: {}
+[41.414020] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[41.493769] (-) TimerEvent: {}
+[41.594208] (-) TimerEvent: {}
+[41.694586] (-) TimerEvent: {}
+[41.798747] (-) TimerEvent: {}
+[41.899203] (-) TimerEvent: {}
+[41.905579] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[41.999316] (-) TimerEvent: {}
+[42.099836] (-) TimerEvent: {}
+[42.200431] (-) TimerEvent: {}
+[42.301010] (-) TimerEvent: {}
+[42.401469] (-) TimerEvent: {}
+[42.501964] (-) TimerEvent: {}
+[42.602444] (-) TimerEvent: {}
+[42.702854] (-) TimerEvent: {}
+[42.705845] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[42.802971] (-) TimerEvent: {}
+[42.908171] (-) TimerEvent: {}
+[43.008739] (-) TimerEvent: {}
+[43.109300] (-) TimerEvent: {}
+[43.221692] (-) TimerEvent: {}
+[43.322280] (-) TimerEvent: {}
+[43.422856] (-) TimerEvent: {}
+[43.523397] (-) TimerEvent: {}
+[43.623954] (-) TimerEvent: {}
+[43.724488] (-) TimerEvent: {}
+[43.822151] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[43.824601] (-) TimerEvent: {}
+[43.834694] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers_with_rot_matrix__type_support.cpp.o\x1b[0m\n'}
+[43.924713] (-) TimerEvent: {}
+[44.025119] (-) TimerEvent: {}
+[44.125778] (-) TimerEvent: {}
+[44.226165] (-) TimerEvent: {}
+[44.313577] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[44.326281] (-) TimerEvent: {}
+[44.403659] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[44.438322] (-) TimerEvent: {}
+[44.538939] (-) TimerEvent: {}
+[44.639487] (-) TimerEvent: {}
+[44.740107] (-) TimerEvent: {}
+[44.830921] (turtlebot3_fake_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlebot3_fake_node.dir/build.make:76: CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o] Error 1\n'}
+[44.831261] (turtlebot3_fake_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlebot3_fake_node.dir/all] Error 2\n'}
+[44.831533] (turtlebot3_fake_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[44.835345] (turtlebot3_fake_node) CommandEnded: {'returncode': 2}
+[44.845247] (-) TimerEvent: {}
+[44.945821] (-) TimerEvent: {}
+[45.046236] (-) TimerEvent: {}
+[45.148781] (-) TimerEvent: {}
+[45.249150] (-) TimerEvent: {}
+[45.354603] (-) TimerEvent: {}
+[45.356532] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 2}
+[45.454712] (-) TimerEvent: {}
+[45.555078] (-) TimerEvent: {}
+[45.655543] (-) TimerEvent: {}
+[45.710143] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[45.755653] (-) TimerEvent: {}
+[45.856290] (-) TimerEvent: {}
+[45.962356] (-) TimerEvent: {}
+[46.066321] (-) TimerEvent: {}
+[46.166858] (-) TimerEvent: {}
+[46.232509] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 64%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[46.266978] (-) TimerEvent: {}
+[46.317371] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[46.367097] (-) TimerEvent: {}
+[46.467604] (-) TimerEvent: {}
+[46.568062] (-) TimerEvent: {}
+[46.672032] (-) TimerEvent: {}
+[46.775930] (-) TimerEvent: {}
+[46.876316] (-) TimerEvent: {}
+[46.980225] (-) TimerEvent: {}
+[47.037969] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o\x1b[0m\n'}
+[47.089671] (-) TimerEvent: {}
+[47.197663] (-) TimerEvent: {}
+[47.301658] (-) TimerEvent: {}
+[47.405682] (-) TimerEvent: {}
+[47.513671] (-) TimerEvent: {}
+[47.617677] (-) TimerEvent: {}
+[47.721659] (-) TimerEvent: {}
+[47.825673] (-) TimerEvent: {}
+[47.927992] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[47.928275] (-) TimerEvent: {}
+[48.029680] (-) TimerEvent: {}
+[48.133671] (-) TimerEvent: {}
+[48.241665] (-) TimerEvent: {}
+[48.345676] (-) TimerEvent: {}
+[48.449671] (-) TimerEvent: {}
+[48.550085] (-) TimerEvent: {}
+[48.653740] (-) TimerEvent: {}
+[48.754296] (-) TimerEvent: {}
+[48.854846] (-) TimerEvent: {}
+[48.955387] (-) TimerEvent: {}
+[49.056040] (-) TimerEvent: {}
+[49.160384] (-) TimerEvent: {}
+[49.264869] (-) TimerEvent: {}
+[49.305740] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[49.364995] (-) TimerEvent: {}
+[49.473803] (-) TimerEvent: {}
+[49.574376] (-) TimerEvent: {}
+[49.674943] (-) TimerEvent: {}
+[49.775501] (-) TimerEvent: {}
+[49.876110] (-) TimerEvent: {}
+[49.966527] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers_with_rot_matrix__type_support.cpp.o\x1b[0m\n'}
+[49.976228] (-) TimerEvent: {}
+[50.085132] (-) TimerEvent: {}
+[50.185579] (-) TimerEvent: {}
+[50.287226] (-) TimerEvent: {}
+[50.390815] (-) TimerEvent: {}
+[50.491240] (-) TimerEvent: {}
+[50.591683] (-) TimerEvent: {}
+[50.692150] (-) TimerEvent: {}
+[50.792624] (-) TimerEvent: {}
+[50.893084] (-) TimerEvent: {}
+[50.993615] (-) TimerEvent: {}
+[51.094168] (-) TimerEvent: {}
+[51.205689] (-) TimerEvent: {}
+[51.306231] (-) TimerEvent: {}
+[51.406703] (-) TimerEvent: {}
+[51.459840] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[51.506816] (-) TimerEvent: {}
+[51.607329] (-) TimerEvent: {}
+[51.695267] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[51.707449] (-) TimerEvent: {}
+[51.754345] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp\n'}
+[51.820028] (-) TimerEvent: {}
+[51.890760] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target ros2_aruco_interfaces\n'}
+[51.920142] (-) TimerEvent: {}
+[52.020636] (-) TimerEvent: {}
+[52.045308] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[52.120741] (-) TimerEvent: {}
+[52.221260] (-) TimerEvent: {}
+[52.325389] (-) TimerEvent: {}
+[52.429658] (-) TimerEvent: {}
+[52.533680] (-) TimerEvent: {}
+[52.634256] (-) TimerEvent: {}
+[52.734844] (-) TimerEvent: {}
+[52.835404] (-) TimerEvent: {}
+[52.936001] (-) TimerEvent: {}
+[53.036566] (-) TimerEvent: {}
+[53.137140] (-) TimerEvent: {}
+[53.237720] (-) TimerEvent: {}
+[53.341574] (-) TimerEvent: {}
+[53.442166] (-) TimerEvent: {}
+[53.542700] (-) TimerEvent: {}
+[53.643164] (-) TimerEvent: {}
+[53.745755] (-) TimerEvent: {}
+[53.822600] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[53.845874] (-) TimerEvent: {}
+[53.946432] (-) TimerEvent: {}
+[54.046965] (-) TimerEvent: {}
+[54.147450] (-) TimerEvent: {}
+[54.248000] (-) TimerEvent: {}
+[54.357664] (-) TimerEvent: {}
+[54.461667] (-) TimerEvent: {}
+[54.562153] (-) TimerEvent: {}
+[54.662893] (-) TimerEvent: {}
+[54.774776] (-) TimerEvent: {}
+[54.833988] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros2_aruco_interfaces__py\n'}
+[54.880147] (-) TimerEvent: {}
+[54.982319] (-) TimerEvent: {}
+[55.029922] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c.o\x1b[0m\n'}
+[55.082432] (-) TimerEvent: {}
+[55.187412] (-) TimerEvent: {}
+[55.292552] (-) TimerEvent: {}
+[55.393141] (-) TimerEvent: {}
+[55.499932] (-) TimerEvent: {}
+[55.600317] (-) TimerEvent: {}
+[55.700735] (-) TimerEvent: {}
+[55.809682] (-) TimerEvent: {}
+[55.910312] (-) TimerEvent: {}
+[56.010866] (-) TimerEvent: {}
+[56.041906] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_with_rot_matrix_s.c.o\x1b[0m\n'}
+[56.117514] (-) TimerEvent: {}
+[56.221712] (-) TimerEvent: {}
+[56.322230] (-) TimerEvent: {}
+[56.416088] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[56.422350] (-) TimerEvent: {}
+[56.529697] (-) TimerEvent: {}
+[56.630232] (-) TimerEvent: {}
+[56.737675] (-) TimerEvent: {}
+[56.840999] (-) TimerEvent: {}
+[56.941583] (-) TimerEvent: {}
+[57.046256] (-) TimerEvent: {}
+[57.153886] (-) TimerEvent: {}
+[57.171949] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[57.262110] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[57.262414] (-) TimerEvent: {}
+[57.324352] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs\n'}
+[57.362554] (-) TimerEvent: {}
+[57.460051] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[57.469659] (-) TimerEvent: {}
+[57.593680] (-) TimerEvent: {}
+[57.613537] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 84%] Built target ros2_aruco_interfaces__rosidl_generator_py\n'}
+[57.694111] (-) TimerEvent: {}
+[57.801676] (-) TimerEvent: {}
+[57.821947] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[57.918439] (-) TimerEvent: {}
+[58.021678] (-) TimerEvent: {}
+[58.122090] (-) TimerEvent: {}
+[58.222760] (-) TimerEvent: {}
+[58.327744] (-) TimerEvent: {}
+[58.428370] (-) TimerEvent: {}
+[58.529017] (-) TimerEvent: {}
+[58.629821] (-) TimerEvent: {}
+[58.730439] (-) TimerEvent: {}
+[58.831731] (-) TimerEvent: {}
+[58.926074] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[58.935517] (-) TimerEvent: {}
+[59.036276] (-) TimerEvent: {}
+[59.140323] (-) TimerEvent: {}
+[59.245667] (-) TimerEvent: {}
+[59.281981] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 89%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[59.345770] (-) TimerEvent: {}
+[59.370483] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[59.457149] (-) TimerEvent: {}
+[59.557681] (-) TimerEvent: {}
+[59.661658] (-) TimerEvent: {}
+[59.762013] (-) TimerEvent: {}
+[59.865707] (-) TimerEvent: {}
+[59.970984] (-) TimerEvent: {}
+[60.073068] (-) TimerEvent: {}
+[60.097669] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[60.173202] (-) TimerEvent: {}
+[60.281787] (-) TimerEvent: {}
+[60.347539] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 94%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[60.398897] (-) TimerEvent: {}
+[60.501678] (-) TimerEvent: {}
+[60.518937] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[60.605674] (-) TimerEvent: {}
+[60.706189] (-) TimerEvent: {}
+[60.809695] (-) TimerEvent: {}
+[60.910512] (-) TimerEvent: {}
+[61.017904] (-) TimerEvent: {}
+[61.125572] (-) TimerEvent: {}
+[61.153327] (ros2_aruco_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[61.227088] (-) TimerEvent: {}
+[61.325541] (ros2_aruco_interfaces) StdoutLine: {'line': b'[100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[61.327197] (-) TimerEvent: {}
+[61.441671] (-) TimerEvent: {}
+[61.480868] (ros2_aruco_interfaces) JobEnded: {'identifier': 'ros2_aruco_interfaces', 'rc': 'SIGINT'}
+[61.541781] (-) TimerEvent: {}
+[61.642127] (-) TimerEvent: {}
+[61.742492] (-) TimerEvent: {}
+[61.842858] (-) TimerEvent: {}
+[61.943275] (-) TimerEvent: {}
+[62.048043] (-) TimerEvent: {}
+[62.149679] (-) TimerEvent: {}
+[62.256176] (-) TimerEvent: {}
+[62.377697] (-) TimerEvent: {}
+[62.478302] (-) TimerEvent: {}
+[62.581055] (-) TimerEvent: {}
+[62.689185] (-) TimerEvent: {}
+[62.796736] (-) TimerEvent: {}
+[62.897351] (-) TimerEvent: {}
+[63.009739] (-) TimerEvent: {}
+[63.110178] (-) TimerEvent: {}
+[63.204271] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[63.213688] (-) TimerEvent: {}
+[63.314143] (-) TimerEvent: {}
+[63.374858] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o\x1b[0m\n'}
+[63.414262] (-) TimerEvent: {}
+[63.517673] (-) TimerEvent: {}
+[63.618118] (-) TimerEvent: {}
+[63.721679] (-) TimerEvent: {}
+[63.822093] (-) TimerEvent: {}
+[63.882576] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o\x1b[0m\n'}
+[63.922206] (-) TimerEvent: {}
+[64.023644] (-) TimerEvent: {}
+[64.135984] (-) TimerEvent: {}
+[64.239697] (-) TimerEvent: {}
+[64.353675] (-) TimerEvent: {}
+[64.461345] (-) TimerEvent: {}
+[64.565680] (-) TimerEvent: {}
+[64.650785] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[64.665793] (-) TimerEvent: {}
+[64.766345] (-) TimerEvent: {}
+[64.866983] (-) TimerEvent: {}
+[64.967593] (-) TimerEvent: {}
+[65.071078] (-) TimerEvent: {}
+[65.171710] (-) TimerEvent: {}
+[65.273977] (-) TimerEvent: {}
+[65.377729] (-) TimerEvent: {}
+[65.478129] (-) TimerEvent: {}
+[65.588334] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[65.588653] (-) TimerEvent: {}
+[65.696287] (-) TimerEvent: {}
+[65.797715] (-) TimerEvent: {}
+[65.898170] (-) TimerEvent: {}
+[66.001869] (-) TimerEvent: {}
+[66.094140] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[66.101980] (-) TimerEvent: {}
+[66.202393] (-) TimerEvent: {}
+[66.302875] (-) TimerEvent: {}
+[66.403350] (-) TimerEvent: {}
+[66.411392] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense2_camera_msgs__rosidl_generator_py\n'}
+[66.505686] (-) TimerEvent: {}
+[66.567773] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[66.621678] (-) TimerEvent: {}
+[66.722744] (-) TimerEvent: {}
+[66.823140] (-) TimerEvent: {}
+[66.926679] (-) TimerEvent: {}
+[67.027222] (-) TimerEvent: {}
+[67.127868] (-) TimerEvent: {}
+[67.229346] (-) TimerEvent: {}
+[67.330018] (-) TimerEvent: {}
+[67.401986] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[67.434063] (-) TimerEvent: {}
+[67.537712] (-) TimerEvent: {}
+[67.638265] (-) TimerEvent: {}
+[67.658149] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[67.741084] (-) TimerEvent: {}
+[67.749326] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[67.841218] (-) TimerEvent: {}
+[67.941678] (-) TimerEvent: {}
+[68.042046] (-) TimerEvent: {}
+[68.142425] (-) TimerEvent: {}
+[68.242802] (-) TimerEvent: {}
+[68.277945] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[68.349672] (-) TimerEvent: {}
+[68.398706] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[68.457477] (-) TimerEvent: {}
+[68.465552] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[68.557664] (-) TimerEvent: {}
+[68.661687] (-) TimerEvent: {}
+[68.762221] (-) TimerEvent: {}
+[68.842628] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[68.862402] (-) TimerEvent: {}
+[68.962893] (-) TimerEvent: {}
+[68.987658] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[69.043664] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 'SIGINT'}
+[69.063003] (-) TimerEvent: {}
+[69.163431] (-) TimerEvent: {}
+[69.263797] (-) TimerEvent: {}
+[69.364152] (-) TimerEvent: {}
+[69.464495] (-) TimerEvent: {}
+[69.564838] (-) TimerEvent: {}
+[69.665182] (-) TimerEvent: {}
+[69.765832] (-) TimerEvent: {}
+[69.867219] (-) TimerEvent: {}
+[69.969333] (-) TimerEvent: {}
+[70.073646] (-) TimerEvent: {}
+[70.175281] (-) TimerEvent: {}
+[70.275722] (-) TimerEvent: {}
+[70.376182] (-) TimerEvent: {}
+[70.476656] (-) TimerEvent: {}
+[70.577110] (-) TimerEvent: {}
+[70.677572] (-) TimerEvent: {}
+[70.777928] (-) TimerEvent: {}
+[70.878405] (-) TimerEvent: {}
+[70.978887] (-) TimerEvent: {}
+[71.079365] (-) TimerEvent: {}
+[71.179893] (-) TimerEvent: {}
+[71.280425] (-) TimerEvent: {}
+[71.380953] (-) TimerEvent: {}
+[71.484033] (-) TimerEvent: {}
+[71.585666] (-) TimerEvent: {}
+[71.686039] (-) TimerEvent: {}
+[71.786557] (-) TimerEvent: {}
+[71.895596] (-) TimerEvent: {}
+[71.998471] (-) TimerEvent: {}
+[72.099609] (-) TimerEvent: {}
+[72.199984] (-) TimerEvent: {}
+[72.301068] (-) TimerEvent: {}
+[72.401776] (-) TimerEvent: {}
+[72.502548] (-) TimerEvent: {}
+[72.603103] (-) TimerEvent: {}
+[72.710306] (-) TimerEvent: {}
+[72.811307] (-) TimerEvent: {}
+[72.913052] (-) TimerEvent: {}
+[73.015799] (-) TimerEvent: {}
+[73.116700] (-) TimerEvent: {}
+[73.218434] (-) TimerEvent: {}
+[73.320248] (-) TimerEvent: {}
+[73.430895] (-) TimerEvent: {}
+[73.531917] (-) TimerEvent: {}
+[73.636030] (-) TimerEvent: {}
+[73.737989] (-) TimerEvent: {}
+[73.840584] (-) TimerEvent: {}
+[73.941267] (-) TimerEvent: {}
+[74.042669] (-) TimerEvent: {}
+[74.148210] (-) TimerEvent: {}
+[74.248658] (-) TimerEvent: {}
+[74.349116] (-) TimerEvent: {}
+[74.449580] (-) TimerEvent: {}
+[74.550027] (-) TimerEvent: {}
+[74.650487] (-) TimerEvent: {}
+[74.751164] (-) TimerEvent: {}
+[74.851627] (-) TimerEvent: {}
+[74.952074] (-) TimerEvent: {}
+[75.052616] (-) TimerEvent: {}
+[75.154056] (-) TimerEvent: {}
+[75.254487] (-) TimerEvent: {}
+[75.289610] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive1\x1b[0m\n'}
+[75.354608] (-) TimerEvent: {}
+[75.455158] (-) TimerEvent: {}
+[75.555688] (-) TimerEvent: {}
+[75.645572] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive2\x1b[0m\n'}
+[75.655824] (-) TimerEvent: {}
+[75.756224] (-) TimerEvent: {}
+[75.869695] (-) TimerEvent: {}
+[75.970235] (-) TimerEvent: {}
+[76.070809] (-) TimerEvent: {}
+[76.171424] (-) TimerEvent: {}
+[76.276270] (-) TimerEvent: {}
+[76.294706] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[76.376384] (-) TimerEvent: {}
+[76.485684] (-) TimerEvent: {}
+[76.586203] (-) TimerEvent: {}
+[76.686687] (-) TimerEvent: {}
+[76.787133] (-) TimerEvent: {}
+[76.887613] (-) TimerEvent: {}
+[76.948319] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 58%] Built target turtlebot3_drive1\n'}
+[76.987734] (-) TimerEvent: {}
+[77.086476] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[77.087821] (-) TimerEvent: {}
+[77.169307] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] Built target obstacle1\n'}
+[77.183695] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] Built target turtlebot3_drive2\n'}
+[77.189954] (-) TimerEvent: {}
+[77.290782] (-) TimerEvent: {}
+[77.391234] (-) TimerEvent: {}
+[77.491633] (-) TimerEvent: {}
+[77.591970] (-) TimerEvent: {}
+[77.692392] (-) TimerEvent: {}
+[77.792708] (-) TimerEvent: {}
+[77.893086] (-) TimerEvent: {}
+[77.993412] (-) TimerEvent: {}
+[78.093794] (-) TimerEvent: {}
+[78.136004] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 66%] Built target turtlebot3_drive\n'}
+[78.171112] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[78.193902] (-) TimerEvent: {}
+[78.294267] (-) TimerEvent: {}
+[78.394748] (-) TimerEvent: {}
+[78.495276] (-) TimerEvent: {}
+[78.595854] (-) TimerEvent: {}
+[78.696784] (-) TimerEvent: {}
+[78.797393] (-) TimerEvent: {}
+[78.897717] (-) TimerEvent: {}
+[78.998035] (-) TimerEvent: {}
+[79.098343] (-) TimerEvent: {}
+[79.198674] (-) TimerEvent: {}
+[79.298996] (-) TimerEvent: {}
+[79.399328] (-) TimerEvent: {}
+[79.499618] (-) TimerEvent: {}
+[79.599953] (-) TimerEvent: {}
+[79.700322] (-) TimerEvent: {}
+[79.800647] (-) TimerEvent: {}
+[79.900938] (-) TimerEvent: {}
+[80.001294] (-) TimerEvent: {}
+[80.101630] (-) TimerEvent: {}
+[80.201990] (-) TimerEvent: {}
+[80.302330] (-) TimerEvent: {}
+[80.402642] (-) TimerEvent: {}
+[80.502966] (-) TimerEvent: {}
+[80.603244] (-) TimerEvent: {}
+[80.703561] (-) TimerEvent: {}
+[80.803906] (-) TimerEvent: {}
+[80.904276] (-) TimerEvent: {}
+[81.004595] (-) TimerEvent: {}
+[81.104906] (-) TimerEvent: {}
+[81.205240] (-) TimerEvent: {}
+[81.305632] (-) TimerEvent: {}
+[81.405916] (-) TimerEvent: {}
+[81.506274] (-) TimerEvent: {}
+[81.607068] (-) TimerEvent: {}
+[81.707706] (-) TimerEvent: {}
+[81.808367] (-) TimerEvent: {}
+[81.908839] (-) TimerEvent: {}
+[82.009489] (-) TimerEvent: {}
+[82.111130] (-) TimerEvent: {}
+[82.211497] (-) TimerEvent: {}
+[82.311847] (-) TimerEvent: {}
+[82.412193] (-) TimerEvent: {}
+[82.512582] (-) TimerEvent: {}
+[82.612911] (-) TimerEvent: {}
+[82.713282] (-) TimerEvent: {}
+[82.813620] (-) TimerEvent: {}
+[82.913927] (-) TimerEvent: {}
+[83.014270] (-) TimerEvent: {}
+[83.114591] (-) TimerEvent: {}
+[83.214971] (-) TimerEvent: {}
+[83.315247] (-) TimerEvent: {}
+[83.415571] (-) TimerEvent: {}
+[83.515891] (-) TimerEvent: {}
+[83.616227] (-) TimerEvent: {}
+[83.716564] (-) TimerEvent: {}
+[83.816899] (-) TimerEvent: {}
+[83.917216] (-) TimerEvent: {}
+[84.017580] (-) TimerEvent: {}
+[84.117909] (-) TimerEvent: {}
+[84.218219] (-) TimerEvent: {}
+[84.318558] (-) TimerEvent: {}
+[84.418927] (-) TimerEvent: {}
+[84.519283] (-) TimerEvent: {}
+[84.619655] (-) TimerEvent: {}
+[84.720008] (-) TimerEvent: {}
+[84.820472] (-) TimerEvent: {}
+[84.921070] (-) TimerEvent: {}
+[85.021555] (-) TimerEvent: {}
+[85.122095] (-) TimerEvent: {}
+[85.222501] (-) TimerEvent: {}
+[85.322847] (-) TimerEvent: {}
+[85.423175] (-) TimerEvent: {}
+[85.523502] (-) TimerEvent: {}
+[85.623827] (-) TimerEvent: {}
+[85.724180] (-) TimerEvent: {}
+[85.824508] (-) TimerEvent: {}
+[85.924832] (-) TimerEvent: {}
+[86.025185] (-) TimerEvent: {}
+[86.125586] (-) TimerEvent: {}
+[86.225963] (-) TimerEvent: {}
+[86.326321] (-) TimerEvent: {}
+[86.426651] (-) TimerEvent: {}
+[86.526976] (-) TimerEvent: {}
+[86.627275] (-) TimerEvent: {}
+[86.727657] (-) TimerEvent: {}
+[86.827952] (-) TimerEvent: {}
+[86.928333] (-) TimerEvent: {}
+[87.028670] (-) TimerEvent: {}
+[87.128962] (-) TimerEvent: {}
+[87.229341] (-) TimerEvent: {}
+[87.329731] (-) TimerEvent: {}
+[87.430074] (-) TimerEvent: {}
+[87.531062] (-) TimerEvent: {}
+[87.632250] (-) TimerEvent: {}
+[87.732626] (-) TimerEvent: {}
+[87.832957] (-) TimerEvent: {}
+[87.933365] (-) TimerEvent: {}
+[88.033967] (-) TimerEvent: {}
+[88.134334] (-) TimerEvent: {}
+[88.234658] (-) TimerEvent: {}
+[88.334985] (-) TimerEvent: {}
+[88.435280] (-) TimerEvent: {}
+[88.535711] (-) TimerEvent: {}
+[88.636027] (-) TimerEvent: {}
+[88.736350] (-) TimerEvent: {}
+[88.836686] (-) TimerEvent: {}
+[88.937035] (-) TimerEvent: {}
+[89.037366] (-) TimerEvent: {}
+[89.137719] (-) TimerEvent: {}
+[89.238072] (-) TimerEvent: {}
+[89.338387] (-) TimerEvent: {}
+[89.438754] (-) TimerEvent: {}
+[89.539107] (-) TimerEvent: {}
+[89.639459] (-) TimerEvent: {}
+[89.739793] (-) TimerEvent: {}
+[89.840117] (-) TimerEvent: {}
+[89.940437] (-) TimerEvent: {}
+[90.040756] (-) TimerEvent: {}
+[90.141090] (-) TimerEvent: {}
+[90.241426] (-) TimerEvent: {}
+[90.341698] (-) TimerEvent: {}
+[90.442036] (-) TimerEvent: {}
+[90.542371] (-) TimerEvent: {}
+[90.642720] (-) TimerEvent: {}
+[90.743077] (-) TimerEvent: {}
+[90.843425] (-) TimerEvent: {}
+[90.943744] (-) TimerEvent: {}
+[91.044057] (-) TimerEvent: {}
+[91.144370] (-) TimerEvent: {}
+[91.244707] (-) TimerEvent: {}
+[91.345037] (-) TimerEvent: {}
+[91.445350] (-) TimerEvent: {}
+[91.545690] (-) TimerEvent: {}
+[91.646106] (-) TimerEvent: {}
+[91.746447] (-) TimerEvent: {}
+[91.846798] (-) TimerEvent: {}
+[91.947149] (-) TimerEvent: {}
+[92.047502] (-) TimerEvent: {}
+[92.147832] (-) TimerEvent: {}
+[92.248114] (-) TimerEvent: {}
+[92.348450] (-) TimerEvent: {}
+[92.448794] (-) TimerEvent: {}
+[92.549116] (-) TimerEvent: {}
+[92.649469] (-) TimerEvent: {}
+[92.749791] (-) TimerEvent: {}
+[92.850198] (-) TimerEvent: {}
+[92.870706] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[92.950301] (-) TimerEvent: {}
+[93.050618] (-) TimerEvent: {}
+[93.150950] (-) TimerEvent: {}
+[93.197923] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 83%] Built target obstacles\n'}
+[93.221805] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[93.251075] (-) TimerEvent: {}
+[93.351477] (-) TimerEvent: {}
+[93.451773] (-) TimerEvent: {}
+[93.552128] (-) TimerEvent: {}
+[93.652471] (-) TimerEvent: {}
+[93.752814] (-) TimerEvent: {}
+[93.853183] (-) TimerEvent: {}
+[93.953543] (-) TimerEvent: {}
+[94.053843] (-) TimerEvent: {}
+[94.154158] (-) TimerEvent: {}
+[94.254468] (-) TimerEvent: {}
+[94.354795] (-) TimerEvent: {}
+[94.455157] (-) TimerEvent: {}
+[94.555509] (-) TimerEvent: {}
+[94.655815] (-) TimerEvent: {}
+[94.756180] (-) TimerEvent: {}
+[94.856512] (-) TimerEvent: {}
+[94.956847] (-) TimerEvent: {}
+[95.057195] (-) TimerEvent: {}
+[95.157505] (-) TimerEvent: {}
+[95.257799] (-) TimerEvent: {}
+[95.358132] (-) TimerEvent: {}
+[95.458424] (-) TimerEvent: {}
+[95.558734] (-) TimerEvent: {}
+[95.659053] (-) TimerEvent: {}
+[95.759344] (-) TimerEvent: {}
+[95.859711] (-) TimerEvent: {}
+[95.960049] (-) TimerEvent: {}
+[96.060381] (-) TimerEvent: {}
+[96.160714] (-) TimerEvent: {}
+[96.261038] (-) TimerEvent: {}
+[96.361376] (-) TimerEvent: {}
+[96.461688] (-) TimerEvent: {}
+[96.561960] (-) TimerEvent: {}
+[96.662275] (-) TimerEvent: {}
+[96.762593] (-) TimerEvent: {}
+[96.862912] (-) TimerEvent: {}
+[96.963252] (-) TimerEvent: {}
+[97.063568] (-) TimerEvent: {}
+[97.163906] (-) TimerEvent: {}
+[97.264251] (-) TimerEvent: {}
+[97.364644] (-) TimerEvent: {}
+[97.464989] (-) TimerEvent: {}
+[97.565350] (-) TimerEvent: {}
+[97.665696] (-) TimerEvent: {}
+[97.765992] (-) TimerEvent: {}
+[97.866349] (-) TimerEvent: {}
+[97.966676] (-) TimerEvent: {}
+[98.067009] (-) TimerEvent: {}
+[98.167339] (-) TimerEvent: {}
+[98.267629] (-) TimerEvent: {}
+[98.367952] (-) TimerEvent: {}
+[98.468326] (-) TimerEvent: {}
+[98.568676] (-) TimerEvent: {}
+[98.669015] (-) TimerEvent: {}
+[98.769352] (-) TimerEvent: {}
+[98.869688] (-) TimerEvent: {}
+[98.969975] (-) TimerEvent: {}
+[99.070288] (-) TimerEvent: {}
+[99.170619] (-) TimerEvent: {}
+[99.270963] (-) TimerEvent: {}
+[99.371311] (-) TimerEvent: {}
+[99.471648] (-) TimerEvent: {}
+[99.571982] (-) TimerEvent: {}
+[99.672325] (-) TimerEvent: {}
+[99.772619] (-) TimerEvent: {}
+[99.872949] (-) TimerEvent: {}
+[99.973238] (-) TimerEvent: {}
+[100.073638] (-) TimerEvent: {}
+[100.173957] (-) TimerEvent: {}
+[100.274327] (-) TimerEvent: {}
+[100.374683] (-) TimerEvent: {}
+[100.475010] (-) TimerEvent: {}
+[100.575336] (-) TimerEvent: {}
+[100.675655] (-) TimerEvent: {}
+[100.775970] (-) TimerEvent: {}
+[100.876271] (-) TimerEvent: {}
+[100.976602] (-) TimerEvent: {}
+[101.076942] (-) TimerEvent: {}
+[101.177276] (-) TimerEvent: {}
+[101.277622] (-) TimerEvent: {}
+[101.377950] (-) TimerEvent: {}
+[101.478268] (-) TimerEvent: {}
+[101.578590] (-) TimerEvent: {}
+[101.678910] (-) TimerEvent: {}
+[101.779240] (-) TimerEvent: {}
+[101.879558] (-) TimerEvent: {}
+[101.979872] (-) TimerEvent: {}
+[102.080204] (-) TimerEvent: {}
+[102.180534] (-) TimerEvent: {}
+[102.280851] (-) TimerEvent: {}
+[102.381169] (-) TimerEvent: {}
+[102.481492] (-) TimerEvent: {}
+[102.581789] (-) TimerEvent: {}
+[102.682097] (-) TimerEvent: {}
+[102.782408] (-) TimerEvent: {}
+[102.882730] (-) TimerEvent: {}
+[102.983073] (-) TimerEvent: {}
+[103.083436] (-) TimerEvent: {}
+[103.183784] (-) TimerEvent: {}
+[103.284131] (-) TimerEvent: {}
+[103.384492] (-) TimerEvent: {}
+[103.484882] (-) TimerEvent: {}
+[103.585203] (-) TimerEvent: {}
+[103.685525] (-) TimerEvent: {}
+[103.785876] (-) TimerEvent: {}
+[103.886197] (-) TimerEvent: {}
+[103.986497] (-) TimerEvent: {}
+[104.086838] (-) TimerEvent: {}
+[104.187178] (-) TimerEvent: {}
+[104.287533] (-) TimerEvent: {}
+[104.387894] (-) TimerEvent: {}
+[104.488241] (-) TimerEvent: {}
+[104.588572] (-) TimerEvent: {}
+[104.688908] (-) TimerEvent: {}
+[104.789228] (-) TimerEvent: {}
+[104.889575] (-) TimerEvent: {}
+[104.989897] (-) TimerEvent: {}
+[105.090280] (-) TimerEvent: {}
+[105.190616] (-) TimerEvent: {}
+[105.290962] (-) TimerEvent: {}
+[105.391314] (-) TimerEvent: {}
+[105.491670] (-) TimerEvent: {}
+[105.592016] (-) TimerEvent: {}
+[105.692368] (-) TimerEvent: {}
+[105.792729] (-) TimerEvent: {}
+[105.893086] (-) TimerEvent: {}
+[105.993417] (-) TimerEvent: {}
+[106.093739] (-) TimerEvent: {}
+[106.194078] (-) TimerEvent: {}
+[106.294420] (-) TimerEvent: {}
+[106.394705] (-) TimerEvent: {}
+[106.495075] (-) TimerEvent: {}
+[106.530111] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[106.595178] (-) TimerEvent: {}
+[106.695487] (-) TimerEvent: {}
+[106.795915] (-) TimerEvent: {}
+[106.896246] (-) TimerEvent: {}
+[106.924660] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[106.939595] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 'SIGINT'}
+[106.950521] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[106.950639] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[106.950670] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[106.950691] (-) EventReactorShutdown: {}

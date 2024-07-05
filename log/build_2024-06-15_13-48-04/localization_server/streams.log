@@ -1,0 +1,42 @@
+[5.575s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/localization_server': PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/build/localization_server/prefix_override:/home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /home/edwinooi/Desktop/foxy_ws/build/localization_server/build install --record /home/edwinooi/Desktop/foxy_ws/build/localization_server/install.log --single-version-externally-managed
+[6.862s] running egg_info
+[6.863s] creating ../../../build/localization_server/localization_server.egg-info
+[6.863s] writing ../../../build/localization_server/localization_server.egg-info/PKG-INFO
+[6.863s] writing dependency_links to ../../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[6.864s] writing entry points to ../../../build/localization_server/localization_server.egg-info/entry_points.txt
+[6.865s] writing requirements to ../../../build/localization_server/localization_server.egg-info/requires.txt
+[6.865s] writing top-level names to ../../../build/localization_server/localization_server.egg-info/top_level.txt
+[6.865s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[6.869s] reading manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[6.869s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[6.869s] running build
+[6.869s] running build_py
+[6.873s] creating /home/edwinooi/Desktop/foxy_ws/build/localization_server/build
+[6.874s] creating /home/edwinooi/Desktop/foxy_ws/build/localization_server/build/lib
+[6.874s] creating /home/edwinooi/Desktop/foxy_ws/build/localization_server/build/lib/localization_server
+[6.874s] copying localization_server/__init__.py -> /home/edwinooi/Desktop/foxy_ws/build/localization_server/build/lib/localization_server
+[6.874s] running install
+[6.881s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.881s]   warnings.warn(
+[6.881s] running install_lib
+[6.881s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[6.881s] copying /home/edwinooi/Desktop/foxy_ws/build/localization_server/build/lib/localization_server/__init__.py -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[6.886s] byte-compiling /home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py to __init__.cpython-310.pyc
+[6.887s] running install_data
+[6.887s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/ament_index
+[6.888s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/ament_index/resource_index
+[6.888s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/ament_index/resource_index/packages
+[6.888s] copying resource/localization_server -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/ament_index/resource_index/packages
+[6.888s] copying package.xml -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server
+[6.888s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/launch
+[6.889s] copying launch/multi_localization.launch.py -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/launch
+[6.889s] copying launch/localization.launch.py -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/launch
+[6.890s] creating /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/config
+[6.890s] copying config/amcl_config.yaml -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/config
+[6.891s] copying config/waffle_pi2_amcl_config.yaml -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/config
+[6.891s] copying config/waffle_pi1_amcl_config.yaml -> /home/edwinooi/Desktop/foxy_ws/install/localization_server/share/localization_server/config
+[6.891s] running install_egg_info
+[6.899s] Copying ../../../build/localization_server/localization_server.egg-info to /home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[6.901s] running install_scripts
+[7.033s] writing list of installed files to '/home/edwinooi/Desktop/foxy_ws/build/localization_server/install.log'
+[7.535s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/localization_server' returned '0': PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/build/localization_server/prefix_override:/home/edwinooi/Desktop/foxy_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /home/edwinooi/Desktop/foxy_ws/build/localization_server/build install --record /home/edwinooi/Desktop/foxy_ws/build/localization_server/install.log --single-version-externally-managed

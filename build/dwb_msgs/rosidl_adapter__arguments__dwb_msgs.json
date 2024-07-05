@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

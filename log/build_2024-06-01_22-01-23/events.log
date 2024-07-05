@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000331] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000372] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000409] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000446] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000483] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000519] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000556] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000593] (-) EventReactorShutdown: {}

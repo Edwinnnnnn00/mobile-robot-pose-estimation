@@ -1,0 +1,160 @@
+[0.126s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server
+[0.302s] -- The C compiler identification is GNU 11.4.0
+[0.546s] -- The CXX compiler identification is GNU 11.4.0
+[0.596s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.795s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.795s] -- Detecting C compile features
+[0.795s] -- Detecting C compile features - done
+[0.796s] -- Detecting CXX compiler ABI info
+[1.063s] -- Detecting CXX compiler ABI info - done
+[1.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.093s] -- Detecting CXX compile features
+[1.093s] -- Detecting CXX compile features - done
+[1.101s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.828s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.179s] -- Found nav2_common: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_common/share/nav2_common/cmake)
+[2.187s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.407s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.425s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.840s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.849s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.215s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.286s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.473s] -- Looking for pthread.h
+[3.794s] -- Looking for pthread.h - found
+[3.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.109s] -- Found Threads: TRUE  
+[4.930s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.173s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.487s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.105s] -- Found nav2_msgs: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[7.246s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[7.273s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[7.385s] -- Found nav2_util: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_util/share/nav2_util/cmake)
+[8.233s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.236s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.237s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.804s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[8.804s] -- Setting build type to Release as none was specified.
+[17.749s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.028s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.067s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.090s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.125s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.127s] -- Configured cppcheck include dirs: /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_map_server/include
+[18.128s] -- Configured cppcheck exclude dirs and/or files: 
+[18.145s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.145s] -- Configured cpplint exclude dirs and/or files: 
+[18.158s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.160s] -- Added test 'lint_cmake' to check CMake code style
+[18.173s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.189s] -- Added test 'uncrustify' to check C / C++ code style
+[18.189s] -- Configured uncrustify additional arguments: 
+[18.189s] -- Added test 'xmllint' to check XML markup files
+[18.201s] -- Configuring done
+[19.437s] -- Generating done
+[19.452s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/nav2_map_server
+[19.527s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server
+[19.528s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_map_server -- -j4 -l4
+[19.804s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[20.746s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[33.225s] [  8%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[33.826s] [  8%] Built target map_io
+[33.876s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[52.671s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[52.797s] [ 13%] Built target gtest
+[52.890s] [ 16%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[66.230s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[66.617s] [ 22%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[67.249s] [ 22%] Built target test_map_saver_publisher
+[67.402s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[86.510s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[103.356s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[138.586s] [ 33%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[139.688s] [ 33%] Built target map_server_core
+[139.738s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[142.171s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[142.240s] [ 38%] Built target gtest_main
+[142.287s] [ 41%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[150.139s] [ 44%] [32m[1mLinking CXX executable map_saver_server[0m
+[150.937s] [ 44%] Built target map_saver_server
+[150.997s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[159.144s] [ 50%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[159.979s] [ 50%] Built target costmap_filter_info_server
+[160.029s] [ 52%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[174.356s] [ 55%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[174.757s] [ 58%] [32m[1mLinking CXX executable test_map_io[0m
+[175.369s] [ 58%] Built target test_map_io
+[175.424s] [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[205.891s] [ 63%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[206.844s] [ 63%] Built target test_costmap_filter_info_server
+[206.894s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[225.841s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[226.497s] [ 72%] [32m[1mLinking CXX executable test_map_server_node[0m
+[227.292s] [ 72%] Built target test_map_server_node
+[227.381s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[244.143s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[244.509s] [ 80%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[245.497s] [ 80%] Built target test_map_saver_node
+[245.552s] [ 83%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[262.125s] [ 86%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[262.433s] [ 88%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[262.795s] [ 88%] Built target test_map_saver_cli
+[262.846s] [ 91%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[270.691s] [ 94%] [32m[1mLinking CXX executable map_saver_cli[0m
+[271.432s] [ 94%] Built target map_saver_cli
+[271.469s] [ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[277.897s] [100%] [32m[1mLinking CXX executable map_server[0m
+[278.625s] [100%] Built target map_server
+[278.652s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_map_server -- -j4 -l4
+[278.769s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_map_server
+[278.785s] -- Install configuration: "Release"
+[278.785s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/libmap_server_core.so
+[278.789s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[278.789s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/libmap_io.so
+[278.791s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+[278.792s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[278.793s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[278.794s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[278.795s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[278.795s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[278.797s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[278.797s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[278.798s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[278.799s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include/
+[278.799s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server
+[278.800s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[278.800s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[278.801s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[278.801s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[278.802s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[278.802s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/launch
+[278.803s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[278.804s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[278.804s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[278.806s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[278.808s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[278.809s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[278.811s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[278.812s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[278.812s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[278.813s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[278.813s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[278.814s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[278.815s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[278.815s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[278.816s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[278.817s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[278.818s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[278.820s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[278.821s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[278.823s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[278.825s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[278.826s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[278.831s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_map_server

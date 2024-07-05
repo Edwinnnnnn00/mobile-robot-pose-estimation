@@ -1,0 +1,147 @@
+[0.326s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors
+[0.677s] -- The C compiler identification is GNU 11.4.0
+[0.959s] -- The CXX compiler identification is GNU 11.4.0
+[1.008s] -- Detecting C compiler ABI info
+[1.414s] -- Detecting C compiler ABI info - done
+[1.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.445s] -- Detecting C compile features
+[1.445s] -- Detecting C compile features - done
+[1.470s] -- Detecting CXX compiler ABI info
+[1.796s] -- Detecting CXX compiler ABI info - done
+[1.855s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.855s] -- Detecting CXX compile features
+[1.856s] -- Detecting CXX compile features - done
+[1.856s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.474s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.753s] -- Found nav2_common: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_common/share/nav2_common/cmake)
+[2.763s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.954s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.971s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.999s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.379s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.390s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.752s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.936s] -- Looking for pthread.h
+[4.450s] -- Looking for pthread.h - found
+[4.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.948s] -- Found Threads: TRUE  
+[5.973s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.305s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.449s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.648s] -- Found nav2_behavior_tree: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[8.561s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.566s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.568s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.425s] -- Found nav2_costmap_2d: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[14.490s] -- Found nav2_core: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_core/share/nav2_core/cmake)
+[16.231s] -- Setting build type to Release as none was specified.
+[111.026s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[111.290s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[124.252s] -- Added test 'copyright' to check source files copyright and LICENSE
+[124.258s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[124.268s] -- Configured cppcheck include dirs: /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_behaviors/include
+[124.269s] -- Configured cppcheck exclude dirs and/or files: 
+[124.273s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[124.273s] -- Configured cpplint exclude dirs and/or files: 
+[124.277s] -- Added test 'lint_cmake' to check CMake code style
+[124.283s] -- Added test 'uncrustify' to check C / C++ code style
+[124.284s] -- Configured uncrustify additional arguments: 
+[124.286s] -- Added test 'xmllint' to check XML markup files
+[124.295s] -- Configuring done
+[126.280s] -- Generating done
+[126.290s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors
+[126.363s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors
+[126.364s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors -- -j4 -l4
+[126.724s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[150.983s] [ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[152.117s] [ 10%] Built target nav2_spin_behavior
+[152.161s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[175.593s] [ 20%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[176.885s] [ 20%] Built target nav2_back_up_behavior
+[176.953s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[226.519s] [ 30%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[228.740s] [ 30%] Built target nav2_assisted_teleop_behavior
+[228.803s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[258.664s] [ 40%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[260.014s] [ 40%] Built target behavior_server_core
+[260.204s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[262.993s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[263.155s] [ 50%] Built target gtest_main
+[263.403s] [ 55%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[282.609s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[282.786s] [ 60%] Built target gtest
+[282.943s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[294.794s] [ 70%] [32m[1mLinking CXX executable behavior_server[0m
+[295.721s] [ 70%] Built target behavior_server
+[295.790s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[324.778s] [ 80%] [32m[1mLinking CXX executable test_behaviors[0m
+[326.535s] [ 80%] Built target test_behaviors
+[326.695s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[352.637s] [ 90%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[353.951s] [ 90%] Built target nav2_drive_on_heading_behavior
+[354.011s] [ 95%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[377.828s] [100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[379.208s] [100%] Built target nav2_wait_behavior
+[379.240s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors -- -j4 -l4
+[379.369s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors
+[379.394s] -- Install configuration: "Release"
+[379.397s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[379.402s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+[379.423s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[379.423s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[379.423s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[379.424s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[379.424s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[379.424s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[379.439s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so" to ""
+[379.439s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[379.439s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[379.439s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[379.440s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[379.440s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include/
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[379.440s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+[379.441s] -- Up-to-date: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[379.441s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[379.442s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[379.443s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[379.447s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[379.448s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[379.448s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[379.449s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[379.452s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[379.455s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[379.456s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[379.457s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[379.457s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[379.457s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[379.458s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[379.458s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[379.459s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[379.460s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[379.461s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[379.461s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[379.461s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[379.461s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[379.466s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[379.476s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_behavior_tree/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_behaviors

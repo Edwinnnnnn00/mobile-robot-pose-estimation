@@ -1,0 +1,9 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "non_idl_tuples": [
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera_msgs:msg/Metadata.msg",
+    "/home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/realsense-ros-4.51.1/realsense2_camera_msgs:srv/DeviceInfo.srv"
+  ]
+}

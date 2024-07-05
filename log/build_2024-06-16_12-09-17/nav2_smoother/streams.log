@@ -1,0 +1,120 @@
+[0.495s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother
+[0.821s] -- The C compiler identification is GNU 11.4.0
+[1.030s] -- The CXX compiler identification is GNU 11.4.0
+[1.085s] -- Detecting C compiler ABI info
+[1.429s] -- Detecting C compiler ABI info - done
+[1.479s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.480s] -- Detecting C compile features
+[1.484s] -- Detecting C compile features - done
+[1.509s] -- Detecting CXX compiler ABI info
+[2.017s] -- Detecting CXX compiler ABI info - done
+[2.081s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.081s] -- Detecting CXX compile features
+[2.081s] -- Detecting CXX compile features - done
+[2.094s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.013s] -- Found nav2_core: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_core/share/nav2_core/cmake)
+[3.193s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.213s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.242s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.592s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.604s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.020s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.127s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.373s] -- Looking for pthread.h
+[4.685s] -- Looking for pthread.h - found
+[4.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.157s] -- Found Threads: TRUE  
+[10.430s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.431s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.097s] -- Found nav2_common: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_common/share/nav2_common/cmake)
+[15.102s] -- Found nav_2d_utils: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[17.143s] -- Setting build type to Release as none was specified.
+[68.228s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[68.629s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[107.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[107.571s] -- Configured cppcheck include dirs: /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_smoother/include
+[107.571s] -- Configured cppcheck exclude dirs and/or files: 
+[107.576s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[107.577s] -- Configured cpplint exclude dirs and/or files: 
+[107.580s] -- Added test 'lint_cmake' to check CMake code style
+[107.585s] -- Added test 'uncrustify' to check C / C++ code style
+[107.585s] -- Configured uncrustify additional arguments: 
+[107.588s] -- Added test 'xmllint' to check XML markup files
+[107.597s] -- Configuring done
+[109.141s] -- Generating done
+[109.160s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/nav2_smoother
+[109.215s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother
+[109.216s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_smoother -- -j4 -l4
+[109.508s] [  5%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[146.809s] [ 11%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[147.932s] [ 11%] Built target smoother_server_core
+[147.976s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[170.906s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[171.114s] [ 22%] Built target gtest
+[171.265s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[174.834s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[175.018s] [ 33%] Built target gtest_main
+[175.098s] [ 38%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[189.521s] [ 44%] [32m[1mLinking CXX executable smoother_server[0m
+[190.609s] [ 44%] Built target smoother_server
+[190.723s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[214.408s] [ 55%] [32m[1mLinking CXX executable test_smoother_server[0m
+[215.834s] [ 55%] Built target test_smoother_server
+[215.950s] [ 61%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[229.559s] [ 66%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[230.451s] [ 66%] Built target savitzky_golay_smoother
+[230.522s] [ 72%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[246.111s] [ 77%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[247.349s] [ 77%] Built target simple_smoother
+[247.436s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o[0m
+[266.572s] [ 88%] [32m[1mLinking CXX executable test_savitzky_golay_smoother[0m
+[267.693s] [ 88%] Built target test_savitzky_golay_smoother
+[267.757s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[281.910s] [100%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[283.085s] [100%] Built target test_simple_smoother
+[283.139s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_smoother -- -j4 -l4
+[283.456s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_smoother
+[283.488s] -- Install configuration: "Release"
+[283.489s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/plugins.xml
+[283.490s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsmoother_server_core.so
+[283.501s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsmoother_server_core.so" to ""
+[283.503s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsimple_smoother.so
+[283.522s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsimple_smoother.so" to ""
+[283.523s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so
+[283.532s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so" to ""
+[283.534s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server
+[283.539s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server" to ""
+[283.541s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include/
+[283.543s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include//nav2_smoother
+[283.545s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include//nav2_smoother/savitzky_golay_smoother.hpp
+[283.549s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include//nav2_smoother/smoother_utils.hpp
+[283.554s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[283.558s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[283.562s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.sh
+[283.564s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.dsv
+[283.566s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_smoother
+[283.578s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_smoother
+[283.581s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.sh
+[283.582s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.dsv
+[283.585s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/path.sh
+[283.586s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/environment/path.dsv
+[283.588s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/local_setup.bash
+[283.591s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/local_setup.sh
+[283.593s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/local_setup.zsh
+[283.595s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/local_setup.dsv
+[283.598s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/package.dsv
+[283.600s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/ament_index/resource_index/packages/nav2_smoother
+[283.602s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smoother
+[283.604s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/ament_index/resource_index/rclcpp_components/nav2_smoother
+[283.606s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[283.608s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[283.610s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[283.612s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig.cmake
+[283.614s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig-version.cmake
+[283.617s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_smoother/share/nav2_smoother/package.xml
+[283.630s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_core:/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_utils/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_smoother

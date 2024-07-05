@@ -1,0 +1,134 @@
+[0.228s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor
+[0.489s] -- The C compiler identification is GNU 11.4.0
+[0.717s] -- The CXX compiler identification is GNU 11.4.0
+[0.773s] -- Detecting C compiler ABI info
+[1.141s] -- Detecting C compiler ABI info - done
+[1.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.217s] -- Detecting C compile features
+[1.217s] -- Detecting C compile features - done
+[1.243s] -- Detecting CXX compiler ABI info
+[1.960s] -- Detecting CXX compiler ABI info - done
+[2.029s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.037s] -- Detecting CXX compile features
+[2.044s] -- Detecting CXX compile features - done
+[2.063s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.065s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.272s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.299s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.348s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.906s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.918s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.289s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.371s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.558s] -- Looking for pthread.h
+[4.848s] -- Looking for pthread.h - found
+[4.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.207s] -- Found Threads: TRUE  
+[6.165s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.613s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.189s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[7.231s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.053s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.112s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.117s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.119s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.149s] -- Found nav2_common: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_common/share/nav2_common/cmake)
+[8.153s] -- Found nav2_util: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_util/share/nav2_util/cmake)
+[10.005s] -- Found nav2_costmap_2d: 1.1.15 (/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[13.781s] -- Setting build type to Release as none was specified.
+[19.437s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.812s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[29.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[29.064s] -- Configured cppcheck include dirs: /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_collision_monitor/include
+[29.064s] -- Configured cppcheck exclude dirs and/or files: 
+[29.068s] -- Added test 'flake8' to check Python code syntax and style conventions
+[29.071s] -- Added test 'lint_cmake' to check CMake code style
+[29.075s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[29.082s] -- Added test 'uncrustify' to check C / C++ code style
+[29.082s] -- Configured uncrustify additional arguments: 
+[29.087s] -- Added test 'xmllint' to check XML markup files
+[29.142s] -- Configuring done
+[30.372s] -- Generating done
+[30.374s] -- Build files have been written to: /home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor
+[30.432s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edwinooi/Desktop/foxy_ws/src/turtlebot3_simulations/navigation2-humble/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor
+[30.433s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor -- -j4 -l4
+[30.644s] [  4%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[64.307s] [  8%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[87.130s] [ 13%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[97.526s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[106.148s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[136.391s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[164.807s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[196.011s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[196.944s] [ 39%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[198.685s] [ 39%] Built target collision_monitor_core
+[198.798s] [ 43%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[221.823s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[222.007s] [ 47%] Built target gtest
+[222.176s] [ 52%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[233.904s] [ 56%] [32m[1mLinking CXX executable collision_monitor[0m
+[235.017s] [ 56%] Built target collision_monitor
+[235.118s] [ 60%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[237.862s] [ 65%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[237.996s] [ 65%] Built target gtest_main
+[238.060s] [ 69%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[249.942s] [ 73%] [32m[1mLinking CXX executable kinematics_test[0m
+[251.144s] [ 73%] Built target kinematics_test
+[251.263s] [ 78%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[302.088s] [ 82%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[303.988s] [ 82%] Built target collision_monitor_node_test
+[304.157s] [ 86%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[339.991s] [ 91%] [32m[1mLinking CXX executable polygons_test[0m
+[341.813s] [ 91%] Built target polygons_test
+[341.953s] [ 95%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[367.358s] [100%] [32m[1mLinking CXX executable sources_test[0m
+[368.643s] [100%] Built target sources_test
+[368.683s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor -- -j4 -l4
+[369.305s] Invoking command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor
+[369.325s] -- Install configuration: "Release"
+[369.327s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[369.332s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so" to ""
+[369.334s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[369.338s] -- Set runtime path of "/home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor" to ""
+[369.339s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include/
+[369.341s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor
+[369.342s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[369.344s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[369.345s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[369.346s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[369.348s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[369.350s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[369.352s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[369.353s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[369.355s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[369.356s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch
+[369.358s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[369.359s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params
+[369.362s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[369.377s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[369.378s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[369.380s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[369.381s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[369.383s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[369.384s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[369.385s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[369.387s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[369.388s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[369.390s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[369.391s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[369.393s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[369.394s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[369.395s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[369.397s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[369.405s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[369.407s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[369.408s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[369.409s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[369.410s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[369.412s] -- Installing: /home/edwinooi/Desktop/foxy_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[369.413s] Invoked command in '/home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d:/home/edwinooi/Desktop/foxy_ws/install/nav2_util:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs:/home/edwinooi/Desktop/foxy_ws/install/nav2_common:/home/edwinooi/Desktop/emanual/install/turtlebot3_simulations:/home/edwinooi/Desktop/emanual/install/turtlebot3_gazebo:/home/edwinooi/Desktop/emanual/install/turtlebot3_fake_node:/home/edwinooi/Desktop/emanual/install/ros2_aruco_interfaces:/home/edwinooi/Desktop/emanual/install/ros2_aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_costmap_2d/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_util/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_voxel_grid/lib:/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edwinooi/Desktop/foxy_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/edwinooi/Desktop/foxy_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edwinooi/Desktop/foxy_ws/build/nav2_collision_monitor
